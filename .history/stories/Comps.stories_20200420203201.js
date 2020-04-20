@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../comps/Card'
 import Header from '../comps/Header'
-import HamburgerMenu from '../comps/HamburgerMenu'
+import Header from '../comps/HamburgerMenu'
 
 export default {
     title:"My comps"
