@@ -1,0 +1,12 @@
+.HeaderContainer {
+    width: 100%;
+    height: 74px;
+    background-color:#37513b;
+    display: inline-flex;
+}
+
+.HamburgerMenu {
+    position: absolute;
+    right: 0;
+}
+
