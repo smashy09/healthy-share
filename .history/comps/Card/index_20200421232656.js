@@ -9,7 +9,7 @@ const Card = ({header, question, backgroundColor, healthytxt, balancedtxt, unhea
 style={{backgroundColor:backgroundColor}}
 className="survey_card"> 
     <div class="card_header">
-        {header}
+       
     </div>
 
     
@@ -54,5 +54,6 @@ Card.defaultProps = {
 }
 
 
+}
 
 export default Card;

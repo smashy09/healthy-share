@@ -36,6 +36,8 @@ className="survey_card">
 
 </div>
 
+
+
 function AnswerClick() {
     alert("hi")
 }
@@ -53,6 +55,10 @@ Card.defaultProps = {
     onClick:AnswerClick
 }
 
-
+ResultCard.defaultProps = {
+    backgroundColor:"#EEE",
+    header:"You chose",
+    
+}
 
 export default Card;

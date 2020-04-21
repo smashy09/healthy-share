@@ -36,6 +36,8 @@ className="survey_card">
 
 </div>
 
+
+
 function AnswerClick() {
     alert("hi")
 }

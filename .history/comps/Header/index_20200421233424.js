@@ -14,7 +14,7 @@ const Header = ({ text, color, fontSize}) => <div>
 Header.defaultProps = {
     text: "Healthy-U",
     color: "#fff",
-    fontSize: "13pt"
+    fontSize: "12pt"
 }
 
 export default Header;
