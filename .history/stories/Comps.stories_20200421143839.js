@@ -4,7 +4,7 @@ import Header from '../comps/Header';
 import HamburgerMenu from '../comps/HamburgerMenu';
 import Button from '../comps/CustomButton';
 import Text from '../comps/CustomText';
-import ResultPage from '../pages/ResultPage';
+
 
 
 export default {
@@ -21,4 +21,3 @@ export const MyCustomText = () => <Text />;
 
 export const MyCustomButton = () => <Button />;
 
-export const MyResultPage = () => <ResultPage />;

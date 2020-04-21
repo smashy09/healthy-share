@@ -11,8 +11,6 @@ className="survey_card">
     <div class="card_header">
         {header}
     </div>
-
-    
     <div class="card_question">
         {question}
     </div>
@@ -36,12 +34,6 @@ className="survey_card">
 
 </div>
 
-const ResultCard = ({}) => <div style={{}}>
-    <div class="card_header">
-        {header}
-    </div>
-</div>
-
 function AnswerClick() {
     alert("hi")
 }
@@ -57,12 +49,6 @@ Card.defaultProps = {
     balancedImg:balancedImg,
     unhealthyImg:unhealthyImg,
     onClick:AnswerClick
-}
-
-ResultCard.defaultProps = {
-    backgroundColor:"#EEE",
-    header:"You chose",
-    
 }
 
 export default Card;

@@ -22,3 +22,4 @@ export const MyCustomText = () => <Text />;
 export const MyCustomButton = () => <Button />;
 
 export const MyResultPage = () => <ResultPage />;
+
