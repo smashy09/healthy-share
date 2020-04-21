@@ -4,14 +4,14 @@ import './text.css';
 
 //text
 
-const CustomText = () => <div className="custom_text_box">
-<p className="custom_text"></p>
+const CustomText = ({text, fontSize, color}) => <div className="custom_text_box">
+<p>{text}</p>
 </div>
 
 CustomText.defaultProps = {
-    color:"#3A3D42",
     text:"Hello There!",
-    fontSize:"10px"
+    fontSize:10,
+    color:"#3A3D42"
 }
 
 export default CustomText;

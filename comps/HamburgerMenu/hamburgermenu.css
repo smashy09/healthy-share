@@ -1,4 +1,7 @@
 .HamburgermenuContainer {
+    position: absolute;
+    right: 5px;
+    top: 50px;
     margin: 20px;
     width: 200px;
     background-color: rgb(221, 215, 206);
