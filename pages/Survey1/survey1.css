@@ -1,0 +1,13 @@
+.survey_next {
+    position: relative;
+    left: 250px;
+    bottom: 0;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+.survey_container{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
