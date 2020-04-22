@@ -1,0 +1,21 @@
+.result_card {
+    display: inline-flex;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.card_header {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 25px;
+}
+
+/* .card_question{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+    margin-bottom: 100px;
+} */
+
+

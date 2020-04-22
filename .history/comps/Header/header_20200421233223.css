@@ -1,0 +1,23 @@
+.HeaderContainer {
+    width: 100%;
+    height: 74px;
+    background-color:#37513b;
+    display: inline-flex;
+    align-items: center;
+}
+
+.HamburgerMenu {
+    position: absolute;
+    right: 30px;
+}
+
+.HeaderLogo {
+    padding-left: 30px;
+}
+
+.HeaderLogo img{
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    
+}

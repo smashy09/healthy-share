@@ -1,0 +1,13 @@
+.HamburgermenuContainer {
+    margin: 20px;
+    width: 200px;
+    background-color: rgb(221, 215, 206);
+    border-radius: 7%;
+    text-align: center;
+    padding: 15px;
+}
+
+.HamburgerItem:hover {
+    color: rgb(214, 129, 157);
+  
+}
