@@ -3,7 +3,7 @@ import './resultpage.css';
 import Header from '../../comps/Header';
 import ResultCard from '../../comps/ResultCard';
 
-const ResultPage = ({backgroundColor}) => <div style={{backgroundColor}}>
+const ResultPage = ({}) => <div style={{backgroundColor}}>
 
     <div id="resultpage">
         <Header />
