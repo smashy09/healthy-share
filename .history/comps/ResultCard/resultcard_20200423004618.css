@@ -8,25 +8,26 @@
 }
 
 .result_header {
-    font-size: 24px; 
+    font-size: 24px;
 }
 
 .ResultCardContainer{
     display: inline-flex;
+    
     align-items: center;
+    
+    
     padding: 3px;
 }
 
 .ResultCard{
     border: solid 1px gray;
+    font-size: 15px;
     margin: 10px;
     width: 280px;
     height: 200px;
     text-align: center;
+    
 }
 
-.card_question{
-    padding: 20px;
-    font-size: 20px;
-}
 

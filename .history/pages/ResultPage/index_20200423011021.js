@@ -6,12 +6,12 @@ import ResultCard from '../../comps/ResultCard';
 const ResultPage = ({}) => {
 
 
-    // useEffect(()=>{
-    //     setTimeout(()=>{
-    //         document.querySelector("#resultpage").style.left = 0;
-    //     }, 50)
+    useEffect(()=>{
+        setTimeout(()=>{
+            document.querySelector("#resultpage").style.left = 0;
+        }, 50)
        
-    // }, []);
+    }, []);
 
     return <div id="resultpage">
         <Header />

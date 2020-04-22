@@ -8,7 +8,9 @@
 }
 
 .result_header {
-    font-size: 24px; 
+    font-size: 24px;
+    position: absolute;
+    top:30px;
 }
 
 .ResultCardContainer{
@@ -19,14 +21,12 @@
 
 .ResultCard{
     border: solid 1px gray;
+    font-size: 18px;
     margin: 10px;
     width: 280px;
     height: 200px;
     text-align: center;
+    position: relative;
 }
 
-.card_question{
-    padding: 20px;
-    font-size: 20px;
-}
 

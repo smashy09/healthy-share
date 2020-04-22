@@ -8,7 +8,9 @@
 }
 
 .result_header {
-    font-size: 24px; 
+    font-size: 24px;
+   
+    
 }
 
 .ResultCardContainer{
@@ -27,6 +29,5 @@
 
 .card_question{
     padding: 20px;
-    font-size: 20px;
 }
 
