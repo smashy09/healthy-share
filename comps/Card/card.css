@@ -1,7 +1,4 @@
 .survey_card {
-    position: absolute;
-    left: 13px;
-    bottom: 75px;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
