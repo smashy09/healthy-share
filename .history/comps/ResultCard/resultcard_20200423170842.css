@@ -1,4 +1,6 @@
-
+body, html {
+    justify-content: center;
+}
 
 .result_card {
     display: inline-flex;
@@ -13,7 +15,6 @@
 
 .result_header {
     font-size: 24px; 
-
 }
 
 .ResultCardContainer{
