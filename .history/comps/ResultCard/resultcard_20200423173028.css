@@ -1,3 +1,5 @@
+
+
 .result_card {
     display: inline-flex;
     flex-direction: column;
@@ -5,10 +7,9 @@
     border: 1px black solid;
     border-radius: 10px;
     padding: 10px;
-    width: 680px;
-    position: absolute;
-    left: 50%;
-    margin-left: -340px;
+    width: 620px;
+   left: 100px;
+   position: absolute;
 }
 
 .result_header {
