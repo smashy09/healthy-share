@@ -3,7 +3,7 @@ import './home.css';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 
-//homePage
+//madec the UI
 const img = require('./logo.png');
 const HomePage = () => <div className="All_home_page">
     <CustomText fontSize={72} color="#DEEDEC" text="Healthy-U"/>
