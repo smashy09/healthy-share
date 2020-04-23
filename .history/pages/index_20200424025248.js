@@ -4,7 +4,7 @@ import './app.css';
 
 function ClickIndex(){
 
-    document.querySelector("#mainapp").opacity = 0;
+    document.querySelector("#mainapp").style.left = "-100%";
     setTimeout(function(){
         Router.push("/ResultPage");
     }, 1000)
@@ -13,7 +13,10 @@ function ClickIndex(){
 const Index = () => <div id="mainapp">
     <div onClick={ClickIndex}>Index</div>
 
-    <Link href="/ResultPage"><button>Results!</button></Link>
+    <Link href="/Survey1"><button>Survey1</button></Link>
+    <Link href="/Survey2"><button>Survey2</button></Link>
+    <Link href="/Survey3"><button>Survey3</button></Link>
+    <Link href="/ResultPage"><button>Results</button></Link>
 </div>
 
 export default Index;
