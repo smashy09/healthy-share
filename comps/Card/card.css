@@ -9,6 +9,7 @@
 .card_header {
     font-weight: bold;
     font-size: 45px;
+    padding-bottom: 30px;
 }
 
 .card_question{
