@@ -3,12 +3,12 @@ import './button.css';
 
 //madec the UI
 
-const CustomButton = () => <div className="custom_button_box">
-<button className="custom_button">Start Survey</button>
+const CustomButton = ({text, backgroundColor}) => <div className="custom_button_box">
+<button className="custom_button" style={{backgroundColor:backgroundColor}} > {text} </button>
 </div>
 
 CustomButton.defaultProps = {
-    backgroundColor:"#F3F2EE",
-    onClick:()=>{}
+    backgroundColor:"#DEEDEC",
+    text:"BUTTON"
 }
 export default CustomButton;

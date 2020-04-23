@@ -7,6 +7,8 @@ import Text from '../comps/CustomText';
 import ResultCard from '../comps/ResultCard';
 import ResultPage from '../pages/ResultPage';
 import Survey1 from '../pages/Survey1'
+import Survey2 from '../pages/Survey2'
+import Survey3 from '../pages/Survey3'
 
 export default {
     title:"My comps"
@@ -29,3 +31,7 @@ export const MyResultPage = () => <ResultPage />;
 export const CustomButton = () => <Button />
 
 export const MySurvey1 = () => <Survey1 />
+
+export const MySurvey2 = () => <Survey2 />
+
+export const MySurvey3 = () => <Survey3 />
