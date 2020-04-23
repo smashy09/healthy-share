@@ -17,11 +17,11 @@ style={{backgroundColor:backgroundColor}}
   className="All_info_page">
     <Header/>
     <CustomText fontSize={32}  text="Welcome to Healthy-U!"/>
-    <CustomText fontSize={22}  text="Health-U goal is to help you be more aware of
+    <CustomText fontSize={32}  text="Health-U goal is to help you be more aware of
 your lifestyle by gathering information based on
 your answers for the survey!"/>
  <CustomText fontSize={32} text="How to Use!"/>
- <CustomText fontSize={22} text="Whenever you're ready just click start survey.
+ <CustomText fontSize={32} text="Whenever you're ready just click start survey.
 There will be 3 questions
 Pick the answer that represents you the closest."/>
   <div className="card_answers">
@@ -40,7 +40,7 @@ Pick the answer that represents you the closest."/>
             {unhealthytxt} 
         </div>
     </div>
-<CustomText fontSize={22} text="After answering you will be given results
+<CustomText fontSize={32} text="After answering you will be given results
 filled with info on how to become a better U! "/>
 <CustomButton className="R_button"/>
 </div>
