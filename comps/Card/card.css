@@ -9,14 +9,13 @@
 .card_header {
     font-weight: bold;
     font-size: 45px;
-    margin: 25px;
 }
 
 .card_question{
     font-weight: bold;
     font-size: 22px;
-    margin: 10px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .card_answers{

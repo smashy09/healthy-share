@@ -1,3 +1,8 @@
+body, html {
+    display: flex;
+    justify-content: center;
+}
+
 .result_card {
     display: inline-flex;
     flex-direction: column;
@@ -5,15 +10,11 @@
     border: 1px black solid;
     border-radius: 10px;
     padding: 10px;
-    width: 680px;
-    position: absolute;
-    left: 50%;
-    margin-left: -340px;
+   
 }
 
 .result_header {
     font-size: 24px; 
-
 }
 
 .ResultCardContainer{
@@ -26,7 +27,7 @@
 .ResultCard{
     border: solid 1px gray;
     margin: 10px;
-    width: 200px;
+    width: 280px;
     height: 200px;
     text-align: center;
 }
