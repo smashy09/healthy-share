@@ -1,6 +1,9 @@
 .custom_button {
     display: flex;
-    border-radius: 5px;
+    justify-content: right;
+    align-items: flex-end;
+    border-radius:
+     5px;
     padding: 10px;
     font-family: 'Spectral', serif;
     background-color: #DEEDEC;

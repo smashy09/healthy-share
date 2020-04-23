@@ -1,0 +1,35 @@
+.All_home_page {
+    display: inline;
+    justify-content: center;
+}
+
+.All_home_page h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #DEEDEC;
+    font-family: 'Quattrocento', serif;
+}
+
+.All_home_page img{
+    display: flex;
+    justify-content: center;
+    width: 225px;
+    height:225px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.All_home_page p{
+    display: flex;
+    justify-content: center;
+    color: #ABB8FA;
+}
+
+.All_home_page h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Quattrocento', serif;
+    color: #000000;
+    font-size: larger;
+}
