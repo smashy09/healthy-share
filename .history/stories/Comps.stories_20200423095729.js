@@ -10,7 +10,7 @@ import Survey1 from '../pages/Survey1'
 import Survey2 from '../pages/Survey2'
 import Survey3 from '../pages/Survey3'
 import HomePage from '../pages/Home page'
-import InformationPage from '../pages/Information Page'
+import InfoPage from '../pages/Information Page'
 
 export default {
     title:"My comps"
@@ -38,6 +38,6 @@ export const MySurvey2 = () => <Survey2 />
 
 export const MySurvey3 = () => <Survey3 />
 
-export const MyInformationPage = () => <InformationPage />
+export const InfoPage = () => <InformationPage />
 
-export const MyHomePage = () => <HomePage />
+export const HomePage = () => <HomePage />

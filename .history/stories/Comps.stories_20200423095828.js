@@ -38,6 +38,6 @@ export const MySurvey2 = () => <Survey2 />
 
 export const MySurvey3 = () => <Survey3 />
 
-export const MyInformationPage = () => <InformationPage />
+export const InformationPage = () => <InformationPage />
 
-export const MyHomePage = () => <HomePage />
+export const HomePage = () => <HomePage />
