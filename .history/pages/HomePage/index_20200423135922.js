@@ -10,7 +10,7 @@ const HomePage = () => <div className="All_home_page">
 <img src={img} className="image"/>
 <CustomText fontSize={32}  text="Become a better U today!"/>
 <CustomButton text="Start" className="StartButton"/>
-<CustomText fontSize={22} color="#867B8C" text="This app will give you the information you need to become a healthier U!"/>
+<CustomText fontSize={22} color="#867B8C" className="EndText" text="This app will give you the information you need to become a healthier U!"/>
 </div>
 
 HomePage.defaultProps = {

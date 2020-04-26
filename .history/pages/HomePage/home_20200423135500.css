@@ -1,11 +1,11 @@
 body{
-    background-color:  #F3F2EE; 
+    background-color:#DEEDEC; 
 }
 
 .All_home_page {
     display: inline;
     justify-content: center;
-    text-align: center;
+    background-color:#867B8C !important; 
 }
 
 .All_home_page h1{

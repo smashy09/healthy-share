@@ -6,11 +6,11 @@ import CustomButton from '../../comps/CustomButton';
 //homePage
 const img = require('./logo.png');
 const HomePage = () => <div className="All_home_page">
-    <CustomText fontSize={72} color="#867B8C" text="Healthy-U"/>
+    <CustomText fontSize={72} color="#DEEDEC" text="Healthy-U"/>
 <img src={img} className="image"/>
 <CustomText fontSize={32}  text="Become a better U today!"/>
 <CustomButton text="Start" className="StartButton"/>
-<CustomText fontSize={22} color="#867B8C" text="This app will give you the information you need to become a healthier U!"/>
+<CustomText fontSize={32} color="#DEEDEC" text="The app that helps with your health."/>
 </div>
 
 HomePage.defaultProps = {

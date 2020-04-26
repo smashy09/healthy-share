@@ -9,6 +9,6 @@ const CustomButton = ({text, backgroundColor}) => <div className="custom_button_
 
 CustomButton.defaultProps = {
     backgroundColor:"#DEEDEC",
-    text:"Start Survey"
+    text:"BUTTON"
 }
 export default CustomButton;
