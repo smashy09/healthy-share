@@ -1,0 +1,11 @@
+.custom_button {
+    display: flex;
+    justify-content: right;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Spectral', serif;
+    background-color: #DEEDEC;
+    color: black;
+    cursor: pointer;
+    margin: 5px;
+    }

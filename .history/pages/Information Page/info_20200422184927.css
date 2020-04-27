@@ -1,0 +1,16 @@
+body {
+    background-color:  #F3F2EE;
+}
+
+.All_info_page{
+    font-family: 'Spectral', serif;
+}
+.All_info_page p{
+    margin-bottom: 100px;
+}
+
+.card_answers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
