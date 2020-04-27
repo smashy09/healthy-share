@@ -8,25 +8,25 @@ const unhealthyImg = require('./unhealthyicon.png');
 const Card = ({header, question, backgroundColor, healthytxt, balancedtxt, unhealthytxt, healthyImg, balancedImg, unhealthyImg, onClick}) => <div
 style={{backgroundColor:backgroundColor}}
 className="survey_card"> 
-    <div class="card_header">
+    <div className="card_header">
         {header}
     </div>
-    <div class="card_question">
+    <div className="card_question">
         {question}
     </div>
 
-    <div class="card_answers">
-        <div class="options1" onClick={Option1 }>
+    <div className="card_answers">
+        <div className="options1" onClick={Option1 }>
             <img src={healthyImg} />
             {healthytxt} 
         </div>
 
-        <div class="options2" >
+        <div className="options2" >
            <img src={balancedImg} onClick={Option2} />
             {balancedtxt}
          </div>
 
-        <div class="options3" >
+        <div className="options3" >
            <img src={unhealthyImg} onClick={Option3} />
             {unhealthytxt} 
         </div>
