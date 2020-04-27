@@ -23,7 +23,7 @@
     display: inline-flex;
 }
 
-.options{
+.options1{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,41 @@
     padding: 3px;
 }
 
-.options img{
+.options2{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 25px;
+    margin:10px;
+    padding: 3px;
+}
+
+.options3{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 25px;
+    margin:10px;
+    padding: 3px;
+}
+
+.options1 img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin: 6px;
+}
+
+.options2 img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin: 6px;
+}
+
+.options3 img{
     width: 75px;
     height: 75px;
     object-fit: contain;

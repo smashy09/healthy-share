@@ -24,7 +24,7 @@ const Survey1 = ({}) => <div>
 
 
 Survey1.defaultProps = {
-
+    
 }
 
 export default Survey1;
