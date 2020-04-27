@@ -7,7 +7,9 @@ import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
 
-
+function SurveyNext2(){
+    Router.push("/Survey3");
+}
 
 const Survey2 = ({}) => <div>
 <Header />
@@ -19,7 +21,7 @@ const Survey2 = ({}) => <div>
 </div>
 
 <div className="survey_next">
-<CustomButton text="Next!" />
+<CustomButton text="Next!" onClick={SurveyNext2} />
 </div>
 
 </div>

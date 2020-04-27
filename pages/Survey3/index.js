@@ -5,7 +5,11 @@ import Header from '../../comps/Header';
 import HamburgerMenu from '../../comps/HamburgerMenu';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
+import Router from 'next/router';
 
+function SurveyNext3(){
+    Router.push("/ResultPage");
+}
 
 const Survey3 = ({}) => <div>
 <Header />
@@ -17,7 +21,7 @@ const Survey3 = ({}) => <div>
 </div>
 
 <div class="survey_next">
-<CustomButton text="Next!" />
+<CustomButton text="Next!" onClick={SurveyNext3} />
 </div>
 
 </div>
