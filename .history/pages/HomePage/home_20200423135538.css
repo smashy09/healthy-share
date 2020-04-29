@@ -1,7 +1,10 @@
+body{
+    background-color:  #F3F2EE; 
+}
+
 .All_home_page {
     display: inline;
     justify-content: center;
-    background-color:#867B8C !important; 
 }
 
 .All_home_page h1{

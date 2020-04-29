@@ -4,9 +4,13 @@ import './survey1.css';
 import Header from '../../comps/Header';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
+import Router from 'next/router';
 
+function SurveyNext1(){
+    Router.push("/Survey2");
+}
 
-const Survey1 = ({}) => <div>
+const Survey1 = () => <div>
 <Header />
 {/* <HamburgerMenu /> */}
 
@@ -16,14 +20,10 @@ const Survey1 = ({}) => <div>
 </div>
 
 <div className="survey_next">
-<CustomButton text="Next!" />
+ <CustomButton text="Next!" onClick={SurveyNext1} />
 </div>
 
 </div>
 
-
-Survey1.defaultProps = {
-
-}
 
 export default Survey1;

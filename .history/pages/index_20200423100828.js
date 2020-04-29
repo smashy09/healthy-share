@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Router from 'next/router';
 import './app.css';
+import InformationPage from './Information Page';
 
 function ClickIndex(){
 
@@ -13,8 +14,8 @@ function ClickIndex(){
 const Index = () => <div id="mainapp">
     <div onClick={ClickIndex}>Index</div>
 
-    <Link href="/HomePage"><button>Home</button></Link>
-    <Link href="/InformationPage"><button>Information</button></Link>
+    <Link href="/Home page"><button>Home</button></Link>
+    <Link href="/Information Page"><button>Information</button></Link>
     <Link href="/Survey1"><button>Survey1</button></Link>
     <Link href="/Survey2"><button>Survey2</button></Link>
     <Link href="/Survey3"><button>Survey3</button></Link>

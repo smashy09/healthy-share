@@ -17,6 +17,7 @@ className="survey_card">
 
     <div className="card_answers">
         <div className="options" onClick={AnswerClick}>
+        <div className="options1" onClick={Option1 }>
             <img src={healthyImg} />
             {healthytxt} 
         </div>
@@ -28,14 +29,35 @@ className="survey_card">
 
         <div className="options" onClick={AnswerClick}>
            <img src={unhealthyImg} />
+        <div className="options2" >
+           <img src={balancedImg} onClick={Option2} />
+            {balancedtxt}
+         </div>
+
+        <div className="options3" >
+           <img src={unhealthyImg} onClick={Option3} />
             {unhealthytxt} 
         </div>
     </div>
 
 </div>
 
-function AnswerClick() {
-    alert("hi")
+function Option1() {
+    document.querySelector(".options1").style.backgroundColor = "grey"
+    document.querySelector(".options2").style.backgroundColor = "initial"
+    document.querySelector(".options3").style.backgroundColor = "initial"
+}
+
+function Option2() {
+    document.querySelector(".options1").style.backgroundColor = "initial"
+    document.querySelector(".options2").style.backgroundColor = "grey"
+    document.querySelector(".options3").style.backgroundColor = "initial"
+}
+
+function Option3() {
+    document.querySelector(".options1").style.backgroundColor = "initial"
+    document.querySelector(".options2").style.backgroundColor = "initial"
+    document.querySelector(".options3").style.backgroundColor = "grey"
 }
 
 Card.defaultProps = {
@@ -48,7 +70,9 @@ Card.defaultProps = {
     healthyImg:healthyImg,
     balancedImg:balancedImg,
     unhealthyImg:unhealthyImg,
-    onClick:AnswerClick
+    onClick:Option1,
+    onClick:Option2,
+    onClick:Option3
 }
 
 export default Card;
