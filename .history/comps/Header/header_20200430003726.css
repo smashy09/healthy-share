@@ -8,12 +8,12 @@ body, html{
     background-color:#37513b;
     display: inline-flex;
     align-items: center;
-    
 }
 
 .HamburgerMenu {
-    position: absolute;
+    position: relative;
     right: 30px;
+    float: right;
 }
 
 .HamburgerMenu:hover{
@@ -37,21 +37,16 @@ body, html{
 
 .HamburgermenuContainer {
     margin: 20px;
-    width: 120px;
+    width: 200px;
     background-color: rgb(221, 215, 206);
     border-radius: 7%;
     text-align: center;
     padding: 15px;
     position: absolute;
-    right: 0;
-    top: 35px;
-    display: none;
+    top: 0;
 }
-
 
 .HamburgerItem:hover {
     color: rgb(214, 129, 157);
     cursor: pointer;
 }
-
-

@@ -54,4 +54,10 @@ body, html{
     cursor: pointer;
 }
 
+.inactive {
+    display: none;
+}
 
+.active {
+    display: block;
+}

@@ -1,6 +1,10 @@
 .results{
     font-size: 20px;
-    margin-left: 50px;
+    text-align: center;
+}
+
+.resultImg {
+    margin-left: 200px;
 }
 
 

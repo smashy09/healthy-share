@@ -8,7 +8,6 @@ body, html{
     background-color:#37513b;
     display: inline-flex;
     align-items: center;
-    
 }
 
 .HamburgerMenu {
@@ -45,7 +44,6 @@ body, html{
     position: absolute;
     right: 0;
     top: 35px;
-    display: none;
 }
 
 
@@ -53,5 +51,3 @@ body, html{
     color: rgb(214, 129, 157);
     cursor: pointer;
 }
-
-

@@ -27,15 +27,15 @@ Header.defaultProps = {
 }
 
 
-var menuState = false;
+var menuState = true;
 function MenuToggle() {
-    if (menuState === true) {
-        document.querySelector(".HamburgermenuContainer").style.display = "block";
-        menuState = false;
-
-    } else {
+    if (menuState === false) {
         document.querySelector(".HamburgermenuContainer").style.display = "none";
         menuState = true;
+
+    } else {
+        document.querySelector(".HamburgermenuContainer").style.display = "block";
+        menuState = false;
     }
 }
 

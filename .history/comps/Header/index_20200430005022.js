@@ -29,13 +29,13 @@ Header.defaultProps = {
 
 var menuState = false;
 function MenuToggle() {
-    if (menuState === true) {
-        document.querySelector(".HamburgermenuContainer").style.display = "block";
-        menuState = false;
-
-    } else {
+    if (menuState === false) {
         document.querySelector(".HamburgermenuContainer").style.display = "none";
         menuState = true;
+
+    } else {
+        document.querySelector(".HamburgermenuContainer").style.display = "block";
+        menuState = false;
     }
 }
 
