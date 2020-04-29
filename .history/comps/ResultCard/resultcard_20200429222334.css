@@ -29,11 +29,13 @@
 }
 
 .card_question{
-    padding: 20px 10px 0 10px;
+    padding: 20px;
     font-size: 20px;
-
+    position: relative;
 }
 
 .card_answer {
+    position: absolute;
+    top: 30px;
 }
 

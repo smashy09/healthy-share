@@ -42,9 +42,9 @@ ResultCard.defaultProps = {
     question1:"How much do you sit down a day?",
     question2:"How many calories do you eat per day?",
     question3:"How much sleep are you getting per day?",
-    answer1:"7+ Hours",
-    answer2:"4000+ Calories",
-    answer3:"3-4 Hours",
+    answer1:"1-2 Hours",
+    answer2:"3-5 Hours",
+    answer3:"7+ Hours",
 }
 
 

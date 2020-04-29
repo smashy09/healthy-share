@@ -11,7 +11,7 @@ className="result_card" style={{backgroundColor:backgroundColor}}>
                 <div className="card_question" id="card_question1">
                     {question1}
                 </div>
-                <div className="card_answer">
+                <div className="card_answer1">
                     {answer1}
                 </div>
             </div>
@@ -19,7 +19,7 @@ className="result_card" style={{backgroundColor:backgroundColor}}>
                 <div className="card_question" id="card_question2">
                     {question2}
                 </div>
-                <div className="card_answer">
+                <div className="card_answer2">
                     {answer2}
                 </div>
             </div>
@@ -27,7 +27,7 @@ className="result_card" style={{backgroundColor:backgroundColor}}>
                 <div className="card_question" id="card_question3">
                     {question3}
                 </div>
-                <div className="card_answer">
+                <div className="card_answer3">
                      {answer3}
                 </div>
             </div>
@@ -42,9 +42,9 @@ ResultCard.defaultProps = {
     question1:"How much do you sit down a day?",
     question2:"How many calories do you eat per day?",
     question3:"How much sleep are you getting per day?",
-    answer1:"7+ Hours",
-    answer2:"4000+ Calories",
-    answer3:"3-4 Hours",
+    answer1:"1-2 Hours",
+    answer2:"3-5 Hours",
+    answer3:"7+ Hours",
 }
 
 

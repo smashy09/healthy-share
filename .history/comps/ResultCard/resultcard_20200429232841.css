@@ -31,9 +31,12 @@
 .card_question{
     padding: 20px 10px 0 10px;
     font-size: 20px;
+    position: relative;
 
 }
 
 .card_answer {
+    position: absolute;
+    bottom: 30px;
 }
 

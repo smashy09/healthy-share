@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../../comps/Card';
 import './survey1.css';
 import Header from '../../comps/Header';
+import HamburgerMenu from '../../comps/HamburgerMenu';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 
