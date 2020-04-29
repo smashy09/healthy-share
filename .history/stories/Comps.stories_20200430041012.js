@@ -30,8 +30,14 @@ export const MySurvey2 = () => <Survey2 />
 
 export const MySurvey3 = () => <Survey3 />
 
+<<<<<<< HEAD
 export const MyResultCard = () => <ResultCard />;
 
 export const MyResults = () => <Results />;
 
 export const MyResultPage = () => <ResultPage />;
+=======
+export const MyInformationPage = () => <InformationPage />
+
+export const MyHomePage = () => <HomePage />
+>>>>>>> be0a12555ea075203b0415f5a861b91ba3c1416b
