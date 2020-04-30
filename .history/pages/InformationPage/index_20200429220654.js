@@ -11,7 +11,7 @@ import CustomButton from '../../comps/CustomButton';
 
 function NextPage(){
 
-    document.querySelector(".All_info_page");
+    document.querySelector("#All_info_page");
     setTimeout(function(){
         Router.push("/");
     },1000)

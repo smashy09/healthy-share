@@ -10,7 +10,7 @@ function NextPage(){
 
     document.querySelector("#All_home_page");
     setTimeout(function(){
-        Router.push("/InformationPage");
+        Router.push("/");
     },1000)
 }
 //homePage

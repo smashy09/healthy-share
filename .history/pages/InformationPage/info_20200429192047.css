@@ -27,6 +27,6 @@ body {
 }
 
 .info_button{
-    position: absolute;
-    left: 70%;
+    display: flex;
+justify-content: right;
 }

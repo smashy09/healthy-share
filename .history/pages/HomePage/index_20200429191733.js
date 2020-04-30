@@ -1,5 +1,4 @@
 import {useEffect} from 'react';
-import Router from 'next/router';
 import React from 'react';
 import './home.css';
 import CustomText from '../../comps/CustomText';
@@ -10,7 +9,7 @@ function NextPage(){
 
     document.querySelector("#All_home_page");
     setTimeout(function(){
-        Router.push("/InformationPage");
+        Router.push("/");
     },1000)
 }
 //homePage

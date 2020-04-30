@@ -1,4 +1,3 @@
-import Router from 'next/router';
 import React from 'react';
 import './info.css';
 import Header from '../../comps/Header';
@@ -8,15 +7,6 @@ import CustomButton from '../../comps/CustomButton';
 
 //Info Page
 
-
-function NextPage(){
-
-    document.querySelector(".All_info_page");
-    setTimeout(function(){
-        Router.push("/");
-    },1000)
-}
-//homePage
 const healthyImg = require('./healthyicon.png');
 const balancedImg = require('./balancedicon.png');
 const unhealthyImg = require('./unhealthyicon.png');
@@ -24,7 +14,7 @@ const unhealthyImg = require('./unhealthyicon.png');
 const InformationPage = ({backgroundColor, healthytxt, balancedtxt, unhealthytxt, healthyImg, balancedImg, unhealthyImg}) => <div
 style={{backgroundColor:backgroundColor}}
 
-  id="All_info_page">
+  className="All_info_page">
     <Header/>
     <CustomText fontSize={32}  text="Welcome to Healthy-U!"/>
     <CustomText fontSize={22}  text="Health-U goal is to help you be more aware of
@@ -52,9 +42,7 @@ Pick the answer that represents you the closest."/>
     </div>
 <CustomText fontSize={22} text="After answering you will be given results
 filled with info on how to become a better U! "/>
-<div className="info_button">
-<CustomButton className="R_button"  onClick={NextPage}/>
-</div>
+<CustomButton className="R_button"/>
 </div>
 
 InformationPage.defaultProps = {

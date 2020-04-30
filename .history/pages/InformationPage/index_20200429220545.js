@@ -1,3 +1,4 @@
+import {useEffect} from 'react';
 import Router from 'next/router';
 import React from 'react';
 import './info.css';
@@ -11,7 +12,7 @@ import CustomButton from '../../comps/CustomButton';
 
 function NextPage(){
 
-    document.querySelector(".All_info_page");
+    document.querySelector("#All_info_page");
     setTimeout(function(){
         Router.push("/");
     },1000)
@@ -24,7 +25,7 @@ const unhealthyImg = require('./unhealthyicon.png');
 const InformationPage = ({backgroundColor, healthytxt, balancedtxt, unhealthytxt, healthyImg, balancedImg, unhealthyImg}) => <div
 style={{backgroundColor:backgroundColor}}
 
-  id="All_info_page">
+  className="All_info_page">
     <Header/>
     <CustomText fontSize={32}  text="Welcome to Healthy-U!"/>
     <CustomText fontSize={22}  text="Health-U goal is to help you be more aware of
