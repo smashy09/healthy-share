@@ -30,7 +30,7 @@ Header.defaultProps = {
 var menuState = false;
 function MenuToggle() {
     if (menuState === true) {
-        document.querySelector(".HamburgermenuContainer").style.display = "none";
+        document.querySelector(".HamburgermenuContainer").style.display = "true";
         menuState = false;
 
     } else {
