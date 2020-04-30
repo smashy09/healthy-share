@@ -11,7 +11,6 @@ import Survey3 from '../pages/Survey3'
 import HomePage from '../pages/HomePage'
 import InformationPage from '../pages/InformationPage'
 import ResultPage from '../pages/Results';
-import Animation from '../comps/Animation';
 
 export default {
     title:"My comps"
@@ -36,9 +35,6 @@ export const MySurvey3 = () => <Survey3 />
 export const MyInformationPage = () => <InformationPage />
 
 export const MyHomePage = () => <HomePage />
-
-export const MyAnimationComp = () => <Animation />
-
 export const MyResultCard = () => <ResultCard />;
 
 export const MyResults = () => <Results />;

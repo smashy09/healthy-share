@@ -1,12 +1,9 @@
 .results{
     font-size: 20px;
     margin-left: 50px;
-}
-
-.resultImg{
-    display: flex;
     justify-content: center;
 }
+
 
 .resultImg img{
     width: 200px;
@@ -18,7 +15,7 @@
     width: 100px;
     height: 100px;
     object-fit: contain;
-    margin: 6px 10px;
+    margin: 6px;
 }
 
 .solution img:hover{

@@ -27,7 +27,7 @@ const Results = ({type, couchpotatoImg, result, solution}) => <div className="re
 
 
 Results.defaultProps = {
-    type:"Couch Potato",
+    type:Couch Potato
     couchpotatoImg:couchpotatoImg,
     workoutImg:workoutImg,
     lesscaloriesImg:lesscaloriesImg,

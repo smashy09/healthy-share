@@ -8,10 +8,7 @@ import ResultCard from '../comps/ResultCard';
 import Survey1 from '../pages/Survey1'
 import Survey2 from '../pages/Survey2'
 import Survey3 from '../pages/Survey3'
-import HomePage from '../pages/HomePage'
-import InformationPage from '../pages/InformationPage'
 import ResultPage from '../pages/Results';
-import Animation from '../comps/Animation';
 
 export default {
     title:"My comps"
@@ -33,14 +30,14 @@ export const MySurvey2 = () => <Survey2 />
 
 export const MySurvey3 = () => <Survey3 />
 
-export const MyInformationPage = () => <InformationPage />
-
-export const MyHomePage = () => <HomePage />
-
-export const MyAnimationComp = () => <Animation />
-
+<<<<<<< HEAD
 export const MyResultCard = () => <ResultCard />;
 
 export const MyResults = () => <Results />;
 
 export const MyResultPage = () => <ResultPage />;
+=======
+export const MyInformationPage = () => <InformationPage />
+
+export const MyHomePage = () => <HomePage />
+>>>>>>> be0a12555ea075203b0415f5a861b91ba3c1416b
