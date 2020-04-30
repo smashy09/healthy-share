@@ -1,0 +1,22 @@
+.results{
+    font-size: 20px;
+}
+
+.resultImg {
+    text-align: center;
+}
+
+
+.resultImg img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 6px;
+}
+
+.solution img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 6px 15px;
+}
