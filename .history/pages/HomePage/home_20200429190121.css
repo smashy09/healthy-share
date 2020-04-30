@@ -27,4 +27,5 @@ img{
 .start_button{
 display: flex;
 justify-content: center;
+font-size: larger;
 }

@@ -2,6 +2,7 @@ import Router from 'next/router';
 import React from 'react';
 import './info.css';
 import Header from '../../comps/Header';
+import HamburgerMenu from '../../comps/HamburgerMenu';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 
@@ -9,7 +10,11 @@ import CustomButton from '../../comps/CustomButton';
 
 
 function NextPage(){
-    Router.push("/Survey1");
+
+    document.querySelector("#All_info_page");
+    setTimeout(function(){
+        Router.push("/");
+    },1000)
 }
 //homePage
 const healthyImg = require('./healthyicon.png');
