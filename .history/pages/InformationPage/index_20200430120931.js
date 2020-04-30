@@ -2,6 +2,7 @@ import Router from 'next/router';
 import React from 'react';
 import './info.css';
 import Header from '../../comps/Header';
+import HamburgerMenu from '../../comps/HamburgerMenu';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 
