@@ -3,15 +3,12 @@
     margin-left: 50px;
 }
 
-.resultImg{
-    display: flex;
-    justify-content: center;
-}
 
 .resultImg img{
     width: 200px;
     height: 200px;
     object-fit: contain;
+    margin: 6px;
 }
 
 .solution img{
@@ -19,8 +16,4 @@
     height: 100px;
     object-fit: contain;
     margin: 6px 10px;
-}
-
-.solution img:hover{
-    opacity: 0.7;
 }

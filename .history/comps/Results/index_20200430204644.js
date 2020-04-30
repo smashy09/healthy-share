@@ -6,8 +6,8 @@ const workoutImg = require('./workout.png');
 const lesscaloriesImg = require('./lesscalories.png');
 const sleepImg = require('./sleep.png');
 
-const Results = ({type, couchpotatoImg, result, solution}) => <div className="results">
-    Your type: {type}
+const Results = ({couchpotatoImg, result, solution}) => <div className="results">
+    Your type:
     <div className="resultImg">
         <img src={couchpotatoImg} />
     </div>
@@ -27,12 +27,11 @@ const Results = ({type, couchpotatoImg, result, solution}) => <div className="re
 
 
 Results.defaultProps = {
-    type:"Couch Potato",
     couchpotatoImg:couchpotatoImg,
     workoutImg:workoutImg,
     lesscaloriesImg:lesscaloriesImg,
     sleepImg:sleepImg,
-    result:"You are leading a sort of couch potato lifestyle. Seems like you sit, eat too much and lack of sleep.",
+    result:"You are leading a sort of potato couch lifestyle. Seems like you sit, eat too much and lack of sleep.",
     solution:"What you need right now is:",
     
 }
