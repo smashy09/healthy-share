@@ -2,31 +2,28 @@ import React from 'react';
 import Card from '../../comps/Card';
 import './survey1.css';
 import Header from '../../comps/Header';
-import HamburgerMenu from '../../comps/HamburgerMenu';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
+import Router from 'next/router';
 
+function SurveyNext1(){
+    Router.push("/Survey2");
+}
 
-const Survey1 = ({backgroundColor}) => <div 
-style={{backgroundColor}}
->
+const Survey1 = () => <div>
 <Header />
 {/* <HamburgerMenu /> */}
 
-<div class="survey_container">
+<div className="survey_container">
 <CustomText fontSize={32} text="Survey"/>
 <Card />
 </div>
 
-<div class="survey_next">
-<CustomButton/>
+<div className="survey_next">
+ <CustomButton text="Next!" onClick={SurveyNext1} />
 </div>
 
 </div>
 
-
-Survey1.defaultProps = {
-    backgroundColor:"#F3F2EE"
-}
 
 export default Survey1;

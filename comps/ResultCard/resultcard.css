@@ -3,30 +3,39 @@
     flex-direction: column;
     align-items: center;
     border: 1px black solid;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
 }
 
 .result_header {
-    font-size: 24px; 
+    font-weight: bold;
+    font-size: 20px;
+
 }
 
 .ResultCardContainer{
     display: inline-flex;
+    justify-content: center;
     align-items: center;
     padding: 3px;
+    position: relative;
 }
 
 .ResultCard{
     border: solid 1px gray;
     margin: 10px;
-    width: 280px;
-    height: 200px;
+    width: 100px;
+    height: 250px;
     text-align: center;
 }
 
 .card_question{
-    padding: 20px;
+    padding: 20px 10px 0 10px;
     font-size: 20px;
+
+}
+
+.card_answer {
 }
 

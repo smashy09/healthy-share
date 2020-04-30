@@ -1,3 +1,5 @@
 .custom_text_box{
     font-family: 'Spectral', serif;
+    display: flex;
+    justify-content: center;
     }
