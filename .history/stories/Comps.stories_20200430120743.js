@@ -4,6 +4,15 @@ import Header from '../comps/Header';
 import Button from '../comps/CustomButton';
 import Text from '../comps/CustomText';
 import ResultCard from '../comps/ResultCard';
+<<<<<<< HEAD
+import ResultPage from '../pages/ResultPage';
+import Survey1 from '../pages/Survey1';
+import Survey2 from '../pages/Survey2';
+import Survey3 from '../pages/Survey3';
+import HomePage from '../pages/HomePage';
+import InformationPage from '../pages/InformationPage';
+import Animation from '../comps/Animation';
+=======
 import ResultCard from '../comps/ResultCard';
 import Survey1 from '../pages/Survey1'
 import Survey2 from '../pages/Survey2'
@@ -11,7 +20,7 @@ import Survey3 from '../pages/Survey3'
 import HomePage from '../pages/HomePage'
 import InformationPage from '../pages/InformationPage'
 import ResultPage from '../pages/Results';
-import Animation from '../comps/Animation';
+>>>>>>> fc84ead6670980ba361bc262b0d5300b06e3338a
 
 export default {
     title:"My comps"

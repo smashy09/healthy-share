@@ -1,25 +1,37 @@
+import {useEffect} from 'react';
 import Router from 'next/router';
 import React from 'react';
 import './info.css';
 import Header from '../../comps/Header';
+import HamburgerMenu from '../../comps/HamburgerMenu';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 
 //Info Page
 
 
+
 function NextPage(){
-    Router.push("/Survey1");
+
+    document.querySelector("#All_info_page");
+    setTimeout(function(){
+        Router.push("/Survey1");
+    },1000)
 }
-//homePage
+
 const healthyImg = require('./healthyicon.png');
 const balancedImg = require('./balancedicon.png');
 const unhealthyImg = require('./unhealthyicon.png');
 
-const InformationPage = ({backgroundColor, healthytxt, balancedtxt, unhealthytxt, healthyImg, balancedImg, unhealthyImg}) => <div
-style={{backgroundColor:backgroundColor}}
+const InformationPage = () =>{
 
-  id="All_info_page">
+    useEffect(() =>{
+        setTimeout(() =>{
+    document.querySelector('#All_info_page').style.right = 0;
+        },50)
+    }, []);
+    
+return  <div id="All_info_page">
     <Header/>
     <CustomText fontSize={32}  text="Welcome to Healthy-U!"/>
     <CustomText fontSize={22}  text="Health-U goal is to help you be more aware of
@@ -51,6 +63,7 @@ filled with info on how to become a better U! "/>
 <CustomButton className="R_button"  onClick={NextPage}/>
 </div>
 </div>
+}
 
 InformationPage.defaultProps = {
     place:"New Button",
