@@ -18,9 +18,7 @@ const ResultPage = ({backgroundColor, margin}) => <div style={{backgroundColor}}
         <ResultCard />
         </div>
         <Results />
-        <div className="gohome_button">
-            <CustomButton text="Start again!"  onClick={GoHome}/>
-        </div>
+        <CustomButton text="Start again!"  onClick={GoHome}/>
     </div>
 </div>
 

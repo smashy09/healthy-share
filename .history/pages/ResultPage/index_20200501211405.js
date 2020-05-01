@@ -13,7 +13,7 @@ function GoHome(){
 const ResultPage = ({backgroundColor, margin}) => <div style={{backgroundColor}}>
 
     <div id="resultpage" >
-        <Header />
+       
         <div style={{margin:margin}}>
         <ResultCard />
         </div>
@@ -21,6 +21,7 @@ const ResultPage = ({backgroundColor, margin}) => <div style={{backgroundColor}}
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>
+        <Header />
     </div>
 </div>
 
