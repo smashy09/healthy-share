@@ -1,8 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import './header.css'
 import {GiHamburgerMenu} from 'react-icons/gi';
-
 
 const logoImg = require('./logo.png');
 

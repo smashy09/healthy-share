@@ -1,8 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import './header.css'
 import {GiHamburgerMenu} from 'react-icons/gi';
-
 
 const logoImg = require('./logo.png');
 
@@ -36,7 +34,7 @@ function MenuToggle() {
         menuState = false;
 
     } else {
-        document.querySelector(".HamburgermenuContainer").style.display = "block";
+        document.querySelector(".HamburgermenuContainer").style.display = "block" !important;
         menuState = true;
     }
 }
