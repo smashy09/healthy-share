@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Router from 'next/router';
-import './app.css';
+import './index.css';
+
 
 function ClickIndex(){
 
