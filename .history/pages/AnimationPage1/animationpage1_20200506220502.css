@@ -1,0 +1,21 @@
+.Animation_next{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Animation_container{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.Animation_people{
+    justify-content: center;
+    position: fixed;
+    top: 65%;
+}
+
+body{
+    background-color: #F3F2EE;
+}

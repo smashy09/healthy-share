@@ -1,0 +1,17 @@
+.Animation_Page{
+    display: flex;
+    justify-content: center;
+}
+
+.girl{
+    position: fixed;
+    bottom: -1%;
+    left: 0%;
+    max-width:70%;
+    height:auto;
+}
+
+.guy{
+    position: fixed;
+    right: 2%;
+}

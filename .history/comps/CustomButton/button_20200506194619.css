@@ -1,0 +1,6 @@
+.custom_button {
+    display: flex;
+    font-family: 'Spectral', serif;
+    cursor: pointer;
+    box-shadow: pink 10px;
+    }
