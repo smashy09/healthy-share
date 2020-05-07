@@ -1,0 +1,9 @@
+.Animation_Page{
+    display: flex;
+    justify-content: center;
+}
+
+.girl{
+    position: absolute;
+    bottom: 0%;
+}
