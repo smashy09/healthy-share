@@ -13,6 +13,7 @@ const Header = ({ text, color, fontSize, text1, text2, text3,text4, lineHeight})
         <div className="HamburgermenuContainer" style={{fontSize, lineHeight}}>
         <Link href="/InformationPage"><div className="HamburgerItem">{text4}</div></Link>
             <Link href="/AnimationPage1"><div className="HamburgerItem">{text1}</div></Link>
+            <Link href="/InformationPage"><div className="HamburgerItem">{text1}</div></Link>
             <Link href="/Survey1"><div className="HamburgerItem">{text2}</div></Link>
             <Link href="/ResultPage"><div className="HamburgerItem">{text3}</div></Link>
         </div>
