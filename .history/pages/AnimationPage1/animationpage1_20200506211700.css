@@ -1,0 +1,16 @@
+.Animation_next{
+    position: absolute;
+    left: 70%;
+}
+
+.Animation_container{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.Animation_people{
+    position: absolute;
+    top: 30%;
+}

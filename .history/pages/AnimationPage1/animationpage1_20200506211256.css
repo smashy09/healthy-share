@@ -1,0 +1,9 @@
+.Animation_next{
+    position: absolute;
+    left: 70%;
+}
+
+.Animation_container{
+    display: flex;
+    justify-content: center;
+}

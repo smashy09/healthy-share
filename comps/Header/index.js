@@ -6,11 +6,13 @@ import {GiHamburgerMenu} from 'react-icons/gi';
 
 const logoImg = require('./logo.png');
 
-const Header = ({ text, color, fontSize, text1, text2, text3,lineHeight}) => <div>
+const Header = ({ text, color, fontSize, text1, text2, text3,text4, lineHeight}) => <div>
     <div className="HeaderContainer">
         <div className="HeaderLogo" style={{color, fontSize}} > <Link href="/HomePage"><img src={logoImg}/></Link><div>{text}</div></div>
         <div className="HamburgerMenu" onClick={MenuToggle}><GiHamburgerMenu size="35" /></div>
         <div className="HamburgermenuContainer" style={{fontSize, lineHeight}}>
+        <Link href="/InformationPage"><div className="HamburgerItem">{text4}</div></Link>
+            <Link href="/AnimationPage1"><div className="HamburgerItem">{text1}</div></Link>
             <Link href="/InformationPage"><div className="HamburgerItem">{text1}</div></Link>
             <Link href="/Survey1"><div className="HamburgerItem">{text2}</div></Link>
             <Link href="/ResultPage"><div className="HamburgerItem">{text3}</div></Link>
@@ -25,6 +27,7 @@ Header.defaultProps = {
     text1: "Tutorial",
     text2: "Survey",
     text3: "Result",
+    text4: "Information",
     lineHeight: "2em"
 }
 
