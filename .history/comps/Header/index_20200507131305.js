@@ -26,7 +26,7 @@ Header.defaultProps = {
     text1: "Tutorial",
     text2: "Survey",
     text3: "Result",
-    text4: "Information",
+    text4: "Information Page",
     lineHeight: "2em"
 }
 
