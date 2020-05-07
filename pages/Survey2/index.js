@@ -17,7 +17,7 @@ const Survey2 = ({}) => <div>
 
 <div className="survey_container2">
 <CustomText fontSize={32} text="Survey"/>
-<Card header="Question #2" question="How many vegetables do you eat per day?" healthytxt="None" balancedtxt="1 Cup" unhealthytxt="2+ Cups" />
+<Card header="Question #2" question="How many vegetables do you eat per day?" healthytxt="2+ Cups" balancedtxt="1 Cup" unhealthytxt="None" />
 </div>
 
 <div className="survey_next">

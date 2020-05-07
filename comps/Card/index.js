@@ -17,8 +17,8 @@ className="survey_card">
 
     <div className="card_answers">
         <div className="options1" onClick={Option1 } style={{backgroundColor:optionbackgroundColor}} >
-            <img src={healthyImg} />
-            {healthytxt} 
+            <img src={unhealthyImg} />
+            {unhealthytxt} 
         </div>
 
         <div className="options2" style={{backgroundColor:optionbackgroundColor}} >
@@ -27,8 +27,8 @@ className="survey_card">
          </div>
 
         <div className="options3" style={{backgroundColor:optionbackgroundColor}} >
-           <img src={unhealthyImg} onClick={Option3} />
-            {unhealthytxt} 
+           <img src={healthyImg} onClick={Option3} />
+            {healthytxt} 
         </div>
     </div>
 
