@@ -1,0 +1,31 @@
+.result_card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    height: 80px;
+}
+
+.result_header {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.ResultCardContainer{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ResultCard{
+    margin: 10px;
+    text-align: center;
+}
+
+.result{
+    padding: 10px 5px 0 5px;
+}
+

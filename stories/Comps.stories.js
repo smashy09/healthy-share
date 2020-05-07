@@ -21,8 +21,6 @@ export const MyCard = () => <Card />;
 
 export const MyHeader = () => <Header />;
 
-export const MyHamburgerMenu = () => <HamburgerMenu />;
-
 export const MyCustomText = () => <Text />;
 
 export const MyCustomButton = () => <Button />;

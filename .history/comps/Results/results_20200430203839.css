@@ -1,0 +1,23 @@
+.results{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+.resultImg img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 6px;
+}
+
+.solution img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 6px;
+}
+
+.solution img:hover{
+    opacity: 0.9;
+}
