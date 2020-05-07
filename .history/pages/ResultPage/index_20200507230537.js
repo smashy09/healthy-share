@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './resultpage.css';
 import Header from '../../comps/Header';
 import CustomButton from '../../comps/CustomButton';
@@ -10,34 +10,7 @@ function GoHome(){
     Router.push("/HomePage");
 }
 
-// var index = 0;
-// const results_arr = [
-//     {
-//         healthytxt:"1-2 Hours",
-//         balancedtxt:"3-5 Hours",
-//         unhealthytxt:"7+ Hours",
-//         text:"abcde",
-//         img:""
-//     },
-//     {
-//         healthytxt:"2000 Cal",
-//         balancedtxt:"3000 Cal",
-//         unhealthytxt:"4000+ Cal"
-//     },
-//     {
-//         healthytxt:"7+ Hours",
-//         balancedtxt:"5-6 Hours",
-//         unhealthytxt:"3-4 Hours"
-//     }
-// ]
-
 const ResultPage = ({backgroundColor, margin}) => {
-
-    useEffect(()=>{
-        setTimeout(()=>{
-            document.querySelector(".resultpage").style.left = 0;
-        },50);
-    },[]);
 
     return <div style={{backgroundColor}} className="resultpage" >
         <Header />

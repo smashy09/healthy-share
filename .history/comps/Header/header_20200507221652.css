@@ -53,10 +53,6 @@ body, html{
     z-index: 1;
 }
 
-.HamburgermenuContainer:hover {
-    opacity: 0.8;
-}
-
 
 .HamburgerItem:hover {
     color: rgb(214, 129, 157);
