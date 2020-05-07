@@ -1,0 +1,43 @@
+.result_card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px black solid; */
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    height: 80px;
+    padding: 10px 0;
+}
+
+.result_header {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.ResultCardContainer{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    position: relative;
+   
+}
+
+.ResultCard{
+    margin: 10px;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+.card_question{
+    padding: 10px 5px 0 5px;
+    font-size: 20px;
+
+}
+
+.card_answer {
+}
+
