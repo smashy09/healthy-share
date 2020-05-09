@@ -6,6 +6,11 @@ import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
 
+
+const goodsit = require('./goodsit.png');
+const balancedsit = require('./balancedsit.png');
+const badsit = require('./badsit.png');
+
 function SurveyNext1(){
     Router.push("/Survey2");
 }
@@ -16,7 +21,7 @@ const Survey1 = () => <div>
 
 <div className="survey_container">
 <CustomText fontSize={32} text="Survey"/>
-<Card />
+<Card unhealthyImg={badsit} balancedImg={balancedsit} healthyImg={goodsit} />
 </div>
 
 <div className="survey_next">
@@ -25,5 +30,11 @@ const Survey1 = () => <div>
 
 </div>
 
+
+Survey1.defaultProps = {
+    badsit:badsit,
+    balancedsit:balancedsit,
+    goodsit:goodsit
+}
 
 export default Survey1;
