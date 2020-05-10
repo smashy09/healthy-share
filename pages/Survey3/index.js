@@ -24,8 +24,8 @@ const Survey3 = ({healthysleep}) => <div>
 <Header />
 {/* <HamburgerMenu /> */}
 
-<div class="survey_container3">
-<CustomText fontSize={32} text="Survey" onClick={ButtonSlide} />
+<div class="survey_container3" onClick={ButtonSlide}>
+<CustomText fontSize={32} text="Survey" />
 <Card healthyImg={healthysleep} balancedImg={balancedsleep} unhealthyImg={badsleep} header="Question #3" question="How much sleep do you get per day?" healthytxt="7+ Hours" balancedtxt="5-6 Hours" unhealthytxt="4- Hours" />
 </div>
 
