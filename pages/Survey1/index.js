@@ -11,6 +11,10 @@ const goodsit = require('./goodsit.png');
 const balancedsit = require('./balancedsit.png');
 const badsit = require('./badsit.png');
 
+function ButtonSlide(){
+    document.querySelector(".survey_next").style.left = 0;
+}
+
 function SurveyNext1(){
     Router.push("/Survey2");
 }
@@ -19,13 +23,13 @@ const Survey1 = () => <div>
 <Header />
 {/* <HamburgerMenu /> */}
 
-<div className="survey_container">
+<div className="survey_container" onClick={ButtonSlide} >
 <CustomText fontSize={32} text="Survey"/>
 <Card unhealthyImg={badsit} balancedImg={balancedsit} healthyImg={goodsit} />
 </div>
 
 <div className="survey_next">
- <CustomButton text="Next!" onClick={SurveyNext1} />
+ <CustomButton className="surveybutton" text="Next!" onClick={SurveyNext1} />
 </div>
 
 </div>
@@ -34,7 +38,7 @@ const Survey1 = () => <div>
 Survey1.defaultProps = {
     badsit:badsit,
     balancedsit:balancedsit,
-    goodsit:goodsit
+    goodsit:goodsit,
 }
 
 export default Survey1;

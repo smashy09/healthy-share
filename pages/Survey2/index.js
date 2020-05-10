@@ -6,6 +6,12 @@ import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
 
+function ButtonSlide(){
+    document.querySelector(".survey_next").style.left = 0;
+}
+
+
+
 function SurveyNext2(){
     Router.push("/Survey3");
 }
@@ -14,7 +20,7 @@ const Survey2 = ({}) => <div>
 <Header />
 {/* <HamburgerMenu /> */}
 
-<div className="survey_container2">
+<div className="survey_container2" onClick={ButtonSlide} >
 <CustomText fontSize={32} text="Survey"/>
 <Card header="Question #2" question="How many vegetables do you eat per day?" healthytxt="2+ Cups" balancedtxt="1 Cup" unhealthytxt="None" />
 </div>

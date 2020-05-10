@@ -6,6 +6,12 @@ import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
 
+function ButtonSlide(){
+    document.querySelector(".survey_next").style.left = 0;
+}
+
+
+
 const healthysleep = require('./goodsleep.png');
 const balancedsleep = require('./balancedsleep.png');
 const badsleep = require('./badsleep.png');
@@ -19,7 +25,7 @@ const Survey3 = ({healthysleep}) => <div>
 {/* <HamburgerMenu /> */}
 
 <div class="survey_container3">
-<CustomText fontSize={32} text="Survey"/>
+<CustomText fontSize={32} text="Survey" onClick={ButtonSlide} />
 <Card healthyImg={healthysleep} balancedImg={balancedsleep} unhealthyImg={badsleep} header="Question #3" question="How much sleep do you get per day?" healthytxt="7+ Hours" balancedtxt="5-6 Hours" unhealthytxt="4- Hours" />
 </div>
 
