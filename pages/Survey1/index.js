@@ -12,7 +12,7 @@ const balancedsit = require('./balancedsit.png');
 const badsit = require('./badsit.png');
 
 function ButtonSlide(){
-    document.querySelector(".survey_next").style.left = 0;
+    document.querySelector(".survey_next").style.right = "-70%";
 }
 
 function SurveyNext1(){

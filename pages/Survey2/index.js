@@ -7,7 +7,7 @@ import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
 
 function ButtonSlide(){
-    document.querySelector(".survey_next").style.left = 0;
+    document.querySelector(".survey_next").style.right = "-70%";
 }
 
 

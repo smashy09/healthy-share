@@ -1,6 +1,6 @@
 .survey_next {
     position: relative;
-    right: -100%;
+    left: -100%;
     top: 20px;
     margin-right: 350px;
     margin-top: 20px;
