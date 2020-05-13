@@ -26,9 +26,6 @@ const Survey1 = () => <div>
 
 <div className="survey_container" onClick={ButtonSlide} >
 <CustomText fontSize={32} text="Survey"/>
-<<<<<<< HEAD
-<Card unhealthyImg={badsit} balancedImg={balancedsit} healthyImg={goodsit} />
-=======
 <Card Option1 = {()=>{
    document.querySelector(".options1").style.backgroundColor = "grey"
    data.resultsit = "7+ Hours"
@@ -51,7 +48,6 @@ Option3 = {()=>{
 }}
 
 />
->>>>>>> cb89385e5ad0f7ebf4607989e19d8f958347ee14
 </div>
 
 <div className="survey_next">

@@ -25,12 +25,7 @@ const Survey3 = ({healthysleep}) => <div>
 <Header />
 {/* <HamburgerMenu /> */}
 
-<<<<<<< HEAD
 <div class="survey_container3" onClick={ButtonSlide}>
-<CustomText fontSize={32} text="Survey" />
-<Card healthyImg={healthysleep} balancedImg={balancedsleep} unhealthyImg={badsleep} header="Question #3" question="How much sleep do you get per day?" healthytxt="7+ Hours" balancedtxt="5-6 Hours" unhealthytxt="4- Hours" />
-=======
-<div class="survey_container3">
 <CustomText fontSize={32} text="Survey"/>
 <Card header="Question #3" question="How much sleep do you get per day?" healthytxt="7+ Hours" balancedtxt="5-6 Hours" unhealthytxt="4- Hours" 
 Option1 = {()=>{
@@ -54,7 +49,6 @@ Option1 = {()=>{
      ChangeData(data)
  }}
 />
->>>>>>> cb89385e5ad0f7ebf4607989e19d8f958347ee14
 </div>
 
 <div class="survey_next">
