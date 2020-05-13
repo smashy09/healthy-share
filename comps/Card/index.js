@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './card.css';
+import Router from 'next/router';
+import {data, ChangeData} from '../../data';
+import Survey1 from '../../pages/Survey1';
 
 const healthyImg = require('./healthyicon.png');
 const balancedImg = require('./balancedicon.png');
 const unhealthyImg = require('./unhealthyicon.png');
 
-const Card = ({header, question, backgroundColor, optionbackgroundColor, healthytxt, balancedtxt, unhealthytxt, healthyImg, balancedImg, unhealthyImg, onClick}) => <div
-style={{backgroundColor:backgroundColor}}
+const Card = ({Option1, Option2, Option3, header, question, backgroundColor, optionbackgroundColor, healthytxt, balancedtxt, unhealthytxt, healthyImg, balancedImg, unhealthyImg, onClick}) => <div
+style={{backgroundColor:backgroundColor, }}
 className="survey_card"> 
     <div className="card_header">
         {header}
@@ -16,7 +19,7 @@ className="survey_card">
     </div>
 
     <div className="card_answers">
-        <div className="options1" onClick={Option1 } style={{backgroundColor:optionbackgroundColor}} >
+        <div className="options1" onClick={Option1} style={{backgroundColor:optionbackgroundColor}} >
             <img src={unhealthyImg} />
             {unhealthytxt} 
         </div>
@@ -29,27 +32,29 @@ className="survey_card">
         <div className="options3" style={{backgroundColor:optionbackgroundColor}} >
            <img src={healthyImg} onClick={Option3} />
             {healthytxt} 
+            
         </div>
     </div>
 
 </div>
 
+
 function Option1() {
-    document.querySelector(".options1").style.backgroundColor = "grey"
-    document.querySelector(".options2").style.backgroundColor = "orange"
-    document.querySelector(".options3").style.backgroundColor = "orange"
-}
+    // document.querySelector(".options1").style.backgroundColor = "grey"
+    // document.querySelector(".options2").style.backgroundColor = "orange"
+    // document.querySelector(".options3").style.backgroundColor = "orange"
+} 
 
 function Option2() {
-    document.querySelector(".options1").style.backgroundColor = "orange"
-    document.querySelector(".options2").style.backgroundColor = "grey"
-    document.querySelector(".options3").style.backgroundColor = "orange"
+    // document.querySelector(".options1").style.backgroundColor = "orange"
+    // document.querySelector(".options2").style.backgroundColor = "grey"
+    // document.querySelector(".options3").style.backgroundColor = "orange"
 }
 
 function Option3() {
-    document.querySelector(".options1").style.backgroundColor = "orange"
-    document.querySelector(".options2").style.backgroundColor = "orange"
-    document.querySelector(".options3").style.backgroundColor = "grey"
+    // document.querySelector(".options1").style.backgroundColor = "orange"
+    // document.querySelector(".options2").style.backgroundColor = "orange"
+    // document.querySelector(".options3").style.backgroundColor = "grey"
 }
 
 Card.defaultProps = {

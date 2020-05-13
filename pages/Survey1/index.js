@@ -5,6 +5,7 @@ import Header from '../../comps/Header';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
+import {data, ChangeData} from '../../data';
 
 
 const goodsit = require('./goodsit.png');
@@ -25,7 +26,32 @@ const Survey1 = () => <div>
 
 <div className="survey_container" onClick={ButtonSlide} >
 <CustomText fontSize={32} text="Survey"/>
+<<<<<<< HEAD
 <Card unhealthyImg={badsit} balancedImg={balancedsit} healthyImg={goodsit} />
+=======
+<Card Option1 = {()=>{
+   document.querySelector(".options1").style.backgroundColor = "grey"
+   data.resultsit = "7+ Hours"
+   data.advicesit = "You sit an unhealthy amount, decreasing the amount of time you sit will improve your mental health and reduce the risk of health problems like diabetes"
+   ChangeData(data)
+}}
+
+Option2 = {()=>{
+    document.querySelector(".options2").style.backgroundColor = "grey"
+    data.resultsit = "3-5 Hours"
+    data.advicesit = "You sit a decent amount, but to improve try scraping another hour of sitting away and do some cardio exercises"
+    ChangeData(data)
+}}
+
+Option3 = {()=>{
+    document.querySelector(".options3").style.backgroundColor = "grey"
+    data.resultsit = "1-2 Hours"
+    data.advicesit = "You are sitting a healthy amount! Great work, try improving your blood flow by doing cardio."
+    ChangeData(data)  
+}}
+
+/>
+>>>>>>> cb89385e5ad0f7ebf4607989e19d8f958347ee14
 </div>
 
 <div className="survey_next">
