@@ -5,6 +5,7 @@ import CustomButton from '../../comps/CustomButton';
 import ResultCard from '../../comps/ResultCard';
 import Results from '../../comps/Results';
 import Router from 'next/router';
+import {data, ChangeData} from '../../data';
 
 function GoHome(){
     Router.push("/HomePage");
@@ -30,6 +31,7 @@ function GoHome(){
 //         unhealthytxt:"3-4 Hours"
 //     }
 // ]
+
 
 const ResultPage = ({backgroundColor, margin}) => {
 
