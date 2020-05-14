@@ -21,9 +21,11 @@ const ResultPage = ({backgroundColor, margin}) => {
     return <div style={{backgroundColor}} className="resultpage" >
         <Header />
         <div style={{margin:margin, textAlign:"center"}}>
-        <ResultCard answer1="3-5 Hours" answer2="None" answer3="4- Hours"  />
+        <ResultCard answer1="1-2 Hours" answer2="None" answer3="5-6 Hours" />
         </div>
-        <Results advice1="You sit a healthy amount, but to improve try scraping another hour of sitting away and do some cardio exercises" advice2="A minimum of 400g of fruit and veg should be eaten every day" advice3="Get at least 7 hours of sleep. Avoid consuming alcohol or caffeine before bedtime." result="You sit a healthy amount, however, you are not eating healthy enough and lack sleep. " />
+        <Results advice1="You are sitting a healthy amount! Great work, try improving your blood flow by doing cardio."
+
+ advice2="A minimum of 400g of fruit and veg should be eaten every day" advice3="Get at least 7 hours of sleep. Avoid consuming alcohol or caffeine before bedtime." result="You sit a healthy amount, have an average diet and sleep a decent amount. " />
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>

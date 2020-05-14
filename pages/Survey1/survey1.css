@@ -1,9 +1,10 @@
 .survey_next {
     position: relative;
-    left: 300px;
+    right: -100%;
     top: 20px;
     margin-right: 350px;
     margin-top: 20px;
+    transition: 1s;
 }
 
 .survey_container{

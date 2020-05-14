@@ -7,6 +7,15 @@ import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
 import {data, ChangeData, Calculation, Sumup} from '../../data';
 
+
+const goodsit = require('./goodsit.png');
+const balancedsit = require('./balancedsit.png');
+const badsit = require('./badsit.png');
+
+function ButtonSlide(){
+    document.querySelector(".survey_next").style.right = "-70%";
+}
+
 function SurveyNext1(){
     Router.push("/Survey2");
 }
@@ -15,7 +24,7 @@ const Survey1 = () => <div>
 <Header />
 {/* <HamburgerMenu /> */}
 
-<div className="survey_container">
+<div className="survey_container" onClick={ButtonSlide} >
 <CustomText fontSize={32} text="Survey"/>
 <Card Option1 = {()=>{
    document.querySelector(".options1").style.backgroundColor = "grey"
@@ -45,10 +54,16 @@ Option3 = {()=>{
 </div>
 
 <div className="survey_next">
- <CustomButton text="Next!" onClick={SurveyNext1} />
+ <CustomButton className="surveybutton" text="Next!" onClick={SurveyNext1} />
 </div>
 
 </div>
 
+
+Survey1.defaultProps = {
+    badsit:badsit,
+    balancedsit:balancedsit,
+    goodsit:goodsit,
+}
 
 export default Survey1;
