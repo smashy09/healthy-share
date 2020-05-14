@@ -1,0 +1,15 @@
+.Animation_Page{
+    display: flex;
+    justify-content: center;
+}
+
+.girl{
+    position: fixed;
+    bottom: -1%;
+    left: 0%;
+}
+
+.guy{
+    position: fixed;
+    right: 2%;
+}
