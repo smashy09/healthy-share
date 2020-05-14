@@ -58,8 +58,8 @@ function Option3() {
 }
 
 Card.defaultProps = {
-    backgroundColor:"#FFDECD",
-    optionbackgroundColor:"#F4F2DD",
+    backgroundColor:"#F7F7F5",
+    optionbackgroundColor:"#DEE9E7",
     header:"Question #1",
     question:"How much do you sit down a day?",
     healthytxt:"1-2 Hours",
