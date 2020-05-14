@@ -45,7 +45,7 @@ Pick the answer that represents you the closest."/>
             {unhealthytxt} 
         </div>
     </div>
-<CustomText fontSize={18} text="After answering you will be given results
+<CustomText fontSize={22} text="After answering you will be given results
 filled with info on how to become a better U! "/>
 <div className="info_button">
 <CustomButton className="R_button"  onClick={NextPage}/>

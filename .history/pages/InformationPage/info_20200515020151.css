@@ -3,8 +3,8 @@ body {
 }
 
 .All_info_page{
+    font-family: 'Spectral', serif;
     text-align: center;
-
 }
 .All_info_page p{
  margin-bottom: 2px;
@@ -24,13 +24,8 @@ body {
     border-radius: 25px;
     margin: 10px;
     padding: 2px;
- 
-}
-
-.options img{
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
+    width: 100px;
+    height: 100px;
 }
 
 .info_button{

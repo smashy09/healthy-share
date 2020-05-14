@@ -3,8 +3,8 @@ body {
 }
 
 .All_info_page{
-    text-align: center;
-
+    /* text-align: center; */
+    margin: 0 auto;
 }
 .All_info_page p{
  margin-bottom: 2px;

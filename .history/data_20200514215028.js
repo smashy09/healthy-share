@@ -9,11 +9,12 @@ export var data = {
 
 export function ChangeData(d){
     data = d;
+
     
 }
 
-export var Calculation = {
-    choice : {
+export function Caculation(){
+    choice = {
         result: {
             point3: "",
             point2: "",

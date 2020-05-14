@@ -12,8 +12,8 @@ function ButtonClick() {
 }
 
 CustomButton.defaultProps = {
-    backgroundColor:"#60a3bc",
-    color:"#DEEDEC",
+    backgroundColor:"#37513B",
+    color:"#60a3bc",
     text:"Start Survey",
     onClick:ButtonClick
 }

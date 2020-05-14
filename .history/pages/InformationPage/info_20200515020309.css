@@ -3,8 +3,8 @@ body {
 }
 
 .All_info_page{
+    font-family: 'Spectral', serif;
     text-align: center;
-
 }
 .All_info_page p{
  margin-bottom: 2px;

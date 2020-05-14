@@ -4,7 +4,8 @@ body {
 
 .All_info_page{
     text-align: center;
-
+    left: 5%;
+    position: absolute;
 }
 .All_info_page p{
  margin-bottom: 2px;

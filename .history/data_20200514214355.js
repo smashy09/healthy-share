@@ -7,13 +7,14 @@ export var data = {
     advicesleep : ""
 }
 
-export function ChangeData(d){
+export function ChangeData(d, n){
     data = d;
+
     
 }
 
-export var Calculation = {
-    choice : {
+export function Caculation(){
+    choice = {
         result: {
             point3: "",
             point2: "",

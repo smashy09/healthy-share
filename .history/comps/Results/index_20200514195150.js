@@ -1,7 +1,6 @@
 import React from 'react';
 import './results.css';
-import {data, ChangeData, Calculation, Sumup} from '../../data';
-
+import {data, ChangeData} from '../../data';
 
 const couchpotatoImg = require('./couchpotato.svg');
 const workoutImg = require('./workout.svg');
@@ -41,7 +40,7 @@ const Results = ({type, couchpotatoImg, result, advice1, advice2, advice3}) => <
 
 
 Results.defaultProps = {
-    type: "Couchpotato",
+    type:"Couch Potato",
     couchpotatoImg:couchpotatoImg,
     workoutImg:workoutImg,
     lesscaloriesImg:lesscaloriesImg,

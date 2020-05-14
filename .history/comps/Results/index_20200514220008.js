@@ -41,7 +41,7 @@ const Results = ({type, couchpotatoImg, result, advice1, advice2, advice3}) => <
 
 
 Results.defaultProps = {
-    type: "Couchpotato",
+    type:{data.},
     couchpotatoImg:couchpotatoImg,
     workoutImg:workoutImg,
     lesscaloriesImg:lesscaloriesImg,
