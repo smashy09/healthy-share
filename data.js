@@ -81,8 +81,8 @@ export function Sumup(){
         data.image = require('./couchpotato.svg')
     }
 
-//couch potato end
-//effort needed start
+    //couch potato end
+    //effort needed start
 
     else if(data.resultsit === "7+ Hours" && data.resulteat === "1 Cup" && data.resultsleep === "7+ Hours"){
         data.type = "Effort Needed";
@@ -153,12 +153,12 @@ export function Sumup(){
     //effort needed end
     //Go-Getters start
     
-    else if(data.resultsit === "1-2 Hours" && data.resulteat === "2 Cups" && data.resultsleep === "5-6 Hours"){
-        data.type = "Go-Getters";
-        data.result = "Seems like you sit an healthy amount, eat a lot of vegetables and get a decent amount of sleep."
+    else if(data.resultsit === "1-2 Hours" && data.resulteat === "2+ Cups" && data.resultsleep === "5-6 Hours"){
+        data.type = "Go-Getter";
+        data.result = "Seems like you sit a healthy amount, eat a lot of vegetables and get enough sleep."
         data.image = require('./healthyperson.svg')
     }
-    else if(data.resultsit === "3-5 Hours" && data.resulteat === "2 Cups" && data.resultsleep === "7+ Hours"){
+    else if(data.resultsit === "3-5 Hours" && data.resulteat === "2+ Cups" && data.resultsleep === "7+ Hours"){
         data.type = "Go-Getters";
         data.result = "Seems like you sit an average amount, eat a lot of vegetables and get a good amount of sleep."
         data.image = require('./healthyperson.svg')
@@ -168,7 +168,7 @@ export function Sumup(){
         data.result = "Seems like you sit a healthy amount, eat enough vegetables and get a good amount of sleep."
         data.image = require('./healthyperson.svg')
     }
-    else if(data.resultsit === "1-2 Hours" && data.resulteat === "2 Cups" && data.resultsleep === "7+ Hours"){
+    else if(data.resultsit === "1-2 Hours" && data.resulteat === "2+ Cups" && data.resultsleep === "7+ Hours"){
         data.type = "Go-Getters";
         data.result = "Seems like you sit a healthy amount, eat a lot of vegetables and get a good amount of sleep."
         data.image = require('./healthyperson.svg')
