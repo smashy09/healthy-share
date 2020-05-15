@@ -1,0 +1,27 @@
+.Animation_next{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Animation_container{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.Animation_people{
+    justify-content: center;
+    position: fixed;
+    top: 65%;
+}
+
+body{
+    background-color: #F3F2EE;
+}
+
+.Animation_text1 img{
+    position: fixed;
+    top: 60%;
+    left: 28%;
+    width: 100px;
+}
