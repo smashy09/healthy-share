@@ -5,7 +5,7 @@ import Header from '../../comps/Header';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
-import {data, ChangeData} from '../../data';
+import {data, ChangeData, Sumup} from '../../data';
 
 function ButtonSlide(){
     document.querySelector(".survey_next").style.right = "-70%";
