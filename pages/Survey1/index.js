@@ -5,7 +5,7 @@ import Header from '../../comps/Header';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 import Router from 'next/router';
-import {data, ChangeData} from '../../data';
+import {data, ChangeData, Sumup} from '../../data';
 
 
 const goodsit = require('./goodsit.png');
@@ -31,6 +31,7 @@ const Survey1 = () => <div>
    data.resultsit = "7+ Hours"
    data.advicesit = "You sit an unhealthy amount, decreasing the amount of time you sit will improve your mental health and reduce the risk of health problems like diabetes"
    ChangeData(data)
+
 }}
 
 Option2 = {()=>{
@@ -38,6 +39,7 @@ Option2 = {()=>{
     data.resultsit = "3-5 Hours"
     data.advicesit = "You sit a decent amount, but to improve try scraping another hour of sitting away and do some cardio exercises"
     ChangeData(data)
+
 }}
 
 Option3 = {()=>{
@@ -45,6 +47,7 @@ Option3 = {()=>{
     data.resultsit = "1-2 Hours"
     data.advicesit = "You are sitting a healthy amount! Great work, try improving your blood flow by doing cardio."
     ChangeData(data)  
+
 }}
 
 />

@@ -5,7 +5,10 @@ import CustomButton from '../../comps/CustomButton';
 import ResultCard from '../../comps/ResultCard';
 import Results from '../../comps/Results';
 import Router from 'next/router';
-import {data, ChangeData} from '../../data';
+import {data, ChangeData, Sumup} from '../../data';
+
+
+console.log(data)
 
 function GoHome(){
     Router.push("/HomePage");
@@ -34,7 +37,7 @@ function GoHome(){
 
 
 const ResultPage = ({backgroundColor, margin}) => {
-
+    Sumup()
     useEffect(()=>{
         setTimeout(()=>{
             document.querySelector(".resultpage").style.left = 0;
@@ -46,7 +49,7 @@ const ResultPage = ({backgroundColor, margin}) => {
         <div style={{margin:margin, textAlign:"center"}}>
         <ResultCard />
         </div>
-        <Results />
+        <Results type={data.type} result={data.result} />
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>
@@ -56,5 +59,7 @@ ResultPage.defaultProps = {
     backgroundColor:"#F3F2EE",
     margin:"20px 0"
 }
+
+
 
 export default ResultPage;
