@@ -33,7 +33,7 @@ export function Sumup(){
     if(data.resultsit === "7+ Hours" && data.resulteat === "None" && data.resultsleep === "4- Hours"){
         data.type = "Couch Potato";
         data.result = "Seems like you sit too much, don't eat enough vegetables and lack sleep.";
-        data.image = 
+        
     }
     else if(data.resultsit === "3-5 Hours" && data.resulteat === "None" && data.resultsleep === "4- Hours"){
         data.type = "Couch Potato";
