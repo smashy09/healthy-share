@@ -2,7 +2,7 @@ import Router from 'next/router';
 import React from 'react';
 import './home.css';
 import CustomText from '../../comps/CustomText';
-
+import CustomButton from '../../comps/CustomButton';
 
 function NextPage(){
     Router.push("/InformationPage");
