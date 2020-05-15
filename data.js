@@ -1,3 +1,4 @@
+
 export var data = {
 
    
@@ -15,18 +16,24 @@ export var data = {
 
     type: "",
 
-    result: ""
+    result: "",
+
+    image: "",
+
 }
+
 
 export function ChangeData(d){
     data = d;
     
 }
 
+
 export function Sumup(){
     if(data.resultsit === "7+ Hours" && data.resulteat === "None" && data.resultsleep === "4- Hours"){
         data.type = "Couch Potato";
-        data.result = "Seems like you sit too much, don't eat enough vegetables and lack sleep."
+        data.result = "Seems like you sit too much, don't eat enough vegetables and lack sleep.";
+        data.image = {effortneededImg}
     }
     else if(data.resultsit === "3-5 Hours" && data.resulteat === "None" && data.resultsleep === "4- Hours"){
         data.type = "Couch Potato";
