@@ -7,6 +7,10 @@ import Results from '../../comps/Results';
 import Router from 'next/router';
 import {data, ChangeData, Sumup} from '../../data';
 
+const couchpotatoImg = require('./couchpotato.svg');
+const effortneededImg = require('./effortneeded.svg');
+const healthypersonImg = require('./healthyperson.svg');
+
 
 console.log(data)
 
@@ -36,7 +40,7 @@ function GoHome(){
 // ]
 
 
-const ResultPage = ({backgroundColor, margin}) => {
+const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
     Sumup()
     useEffect(()=>{
         setTimeout(()=>{
@@ -49,14 +53,17 @@ const ResultPage = ({backgroundColor, margin}) => {
         <div style={{margin:margin, textAlign:"center"}}>
         <ResultCard />
         </div>
-        <Results type={data.type} result={data.result} />
+        <Results type={data.type} result={data.result} image={data.image} />
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>
     </div>
 }
 ResultPage.defaultProps = {
-    // backgroundColor:"#F3CC91",
+    couchpotatoImg:couchpotatoImg,
+    effortneededImg: effortneededImg,
+    healthypersonImg: healthypersonImg,
+    backgroundColor:"#F3F2EE",
     margin:"20px 0"
 }
 

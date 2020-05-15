@@ -8,10 +8,10 @@ const workoutImg = require('./workout.svg');
 const lesscaloriesImg = require('./veggies.svg');
 const sleepImg = require('./sleep.svg');
 
-const Results = ({type, couchpotatoImg, result, advice1, advice2, advice3}) => <div className="results">
+const Results = ({type, image, result, advice1, advice2, advice3}) => <div className="results">
     Your type: <span style={{fontSize:"20px",fontWeight:"bold"}}>{type}</span>
     <div className="resultImg">
-        <img src={couchpotatoImg} />
+        <img src={image} />
     </div>
     <div className="resultText">
         {result}
@@ -44,7 +44,7 @@ const Results = ({type, couchpotatoImg, result, advice1, advice2, advice3}) => <
 
 Results.defaultProps = {
     type: "Couchpotato",
-    couchpotatoImg:couchpotatoImg,
+    image:couchpotatoImg,
     workoutImg:workoutImg,
     lesscaloriesImg:lesscaloriesImg,
     sleepImg:sleepImg,
