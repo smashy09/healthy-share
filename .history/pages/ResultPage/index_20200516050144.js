@@ -18,6 +18,28 @@ function GoHome(){
     Router.push("/HomePage");
 }
 
+// var index = 0;
+// const results_arr = [
+//     {
+//         healthytxt:"1-2 Hours",
+//         balancedtxt:"3-5 Hours",
+//         unhealthytxt:"7+ Hours",
+//         text:"abcde",
+//         img:""
+//     },
+//     {
+//         healthytxt:"2000 Cal",
+//         balancedtxt:"3000 Cal",
+//         unhealthytxt:"4000+ Cal"
+//     },
+//     {
+//         healthytxt:"7+ Hours",
+//         balancedtxt:"5-6 Hours",
+//         unhealthytxt:"3-4 Hours"
+//     }
+// ]
+
+
 const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
     Sumup()
     useEffect(()=>{
@@ -31,7 +53,7 @@ const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
         <div style={{margin:margin, textAlign:"center"}}>
         <ResultCard />
         </div>
-        <Results type={data.type} result={data.result} image={data.image} />
+        <Results type={data.type} result={data.result}  />
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>
