@@ -1,0 +1,29 @@
+.Animation_next3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Animation_container{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+
+body{
+    background-color: #EB5E55;
+}
+.Animation_text3 img{
+    position: fixed;
+    top: 60%;
+    left: 25%;
+    width: 100px;
+    animation: textmove 10s;
+    animation-iteration-count: none;
+}
+
+@keyframes textmove {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+} 
