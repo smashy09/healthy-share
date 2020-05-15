@@ -1,25 +1,21 @@
 export var data = {
-    results: [
-    {
-    resultsit: ""
-    },
-    {
-    resulteat: ""
-    },
-    {
-    resultsleep: ""
-    },
-    {
-    advicesit: ""
-    },
-    {
-    adviceeat: ""
-    },
-    {
-    advicesleep: ""
-}
-],
-type: ""
+
+   
+    resultsit: "",
+
+    resulteat: "",
+   
+    resultsleep: "",
+    
+    advicesit: "",
+ 
+    adviceeat: "",
+ 
+    advicesleep: "",
+
+    type: "",
+
+    result: ""
 }
 
 export function ChangeData(d){
@@ -27,11 +23,19 @@ export function ChangeData(d){
     
 }
 
-
-
-
 export function Sumup(){
- if(data.results[0].resultsit === "7+ Hours" && data.results.resulteat[1] === "None" && data.resultsleep[2] === "4- Hours"){
-     data.type = "test";
- }
+    if(data.resultsit === "7+ Hours" && data.resulteat === "None" && data.resultsleep === "4- Hours"){
+        data.type = "Couch Potato";
+        data.result = "Seems like you sit, eat too much and lack sleep."
+    }
+    else if(data.resultsit === "3-5 Hours" && data.resulteat === "None" && data.resultsleep === "4- Hours"){
+        data.type = "Couch Potato";
+        data.result = "Seems like you sit an average amount, eat too much and lack sleep."
+    }
+    else if(data.resultsit === "7+ Hours" && data.resulteat === "1 Cup" && data.resultsleep === "4- Hours"){
+        data.type = "Couch Potato";
+        data.result = "Seems like you sit too much, eat too much and lack sleep."
+    }
 }
+
+

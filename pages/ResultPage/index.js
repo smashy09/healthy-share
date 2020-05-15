@@ -7,6 +7,9 @@ import Results from '../../comps/Results';
 import Router from 'next/router';
 import {data, ChangeData, Sumup} from '../../data';
 
+
+console.log(data)
+
 function GoHome(){
     Router.push("/HomePage");
 }
@@ -34,7 +37,7 @@ function GoHome(){
 
 
 const ResultPage = ({backgroundColor, margin}) => {
-
+    Sumup()
     useEffect(()=>{
         setTimeout(()=>{
             document.querySelector(".resultpage").style.left = 0;
@@ -46,10 +49,7 @@ const ResultPage = ({backgroundColor, margin}) => {
         <div style={{margin:margin, textAlign:"center"}}>
         <ResultCard />
         </div>
-        <Results type = {()=>{
-          Sumup(data)  
-        }}
-            />
+        <Results type={data.type} result={data.result} />
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>
