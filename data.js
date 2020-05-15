@@ -152,7 +152,7 @@ export function Sumup(){
 
     //effort needed end
     //Go-Getters start
-
+    
     else if(data.resultsit === "1-2 Hours" && data.resulteat === "2 Cups" && data.resultsleep === "5-6 Hours"){
         data.type = "Go-Getters";
         data.result = "Seems like you sit an healthy amount, eat a lot of vegetables and get a decent amount of sleep."
