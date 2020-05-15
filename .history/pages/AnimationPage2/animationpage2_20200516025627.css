@@ -1,4 +1,4 @@
-.Animation_next3{
+.Animation_next1{
     display: flex;
     justify-content: space-around;
 }
@@ -16,12 +16,15 @@
     top: 65%;
 }
 
+body{
+    /* background-color: #EB5E55; */
+}
 
-.Animation_text3 img{
+.Animation_text2 img{
     position: fixed;
     top: 60%;
-    left: 25%;
-    width: 100px;
+    left: 45%;
+    width: 125px;
     animation: textmove 10s;
     animation-iteration-count: none;
 }

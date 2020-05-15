@@ -1,4 +1,4 @@
-.Animation_next3{
+.Animation_next{
     display: flex;
     justify-content: space-around;
 }
@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     padding-left: 20px;
-    padding-top: 15px;
 }
 
 .Animation_people{
@@ -16,10 +15,13 @@
     top: 65%;
 }
 
+body{
+    /* background-color: #EB5E55; */
+}
 
-.Animation_text3 img{
+.Animation_text1 img{
     position: fixed;
-    top: 60%;
+    top: 58%;
     left: 25%;
     width: 100px;
     animation: textmove 10s;

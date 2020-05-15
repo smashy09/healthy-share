@@ -56,7 +56,7 @@ const ResultPage = ({backgroundColor, margin}) => {
     </div>
 }
 ResultPage.defaultProps = {
-    // backgroundColor:"#F3CC91",
+    backgroundColor:"#000",
     margin:"20px 0"
 }
 

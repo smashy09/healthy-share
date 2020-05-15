@@ -16,7 +16,9 @@
     top: 65%;
 }
 
-
+body{
+    /* background-color: #EB5E55; */
+}
 .Animation_text3 img{
     position: fixed;
     top: 60%;

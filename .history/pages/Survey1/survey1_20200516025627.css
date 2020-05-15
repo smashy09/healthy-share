@@ -3,13 +3,17 @@
     right: -100%;
     top: 40px;
 
-
+    transition: 1s;
 }
 
-.survey_container3{
+.survey_container{
     display: inline-flex;
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 4%;
+    left: 8%;
+}
+
+body{
+    /* background-color: #F3CC91; */
 }

@@ -6,10 +6,14 @@
 
 }
 
-.survey_container3{
+.survey_container2{
     display: inline-flex;
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 4%;
+
+}
+
+body{
+    /* background-color: #FC6763; */
 }
