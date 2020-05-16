@@ -10,7 +10,7 @@ import Router from 'next/router';
 const animationtext3= require('./text3.png');
 
 function AnimationNext3() {
-    Router.push("/survey1");
+    Router.push("/Survey1");
 }
 
 function Animationback() {
