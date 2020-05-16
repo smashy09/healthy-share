@@ -7,6 +7,10 @@
  margin-bottom: 2px;
 }
 
+.howtouse{
+    padding: 40px;
+}
+
 .card_answers{
     display: flex;
     justify-content: center;

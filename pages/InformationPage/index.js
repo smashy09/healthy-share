@@ -25,10 +25,12 @@ style={{backgroundColor:backgroundColor}}
     <CustomText fontSize={18}  text="Health-U goal is to help you be more aware of
 your lifestyle by gathering information based on
 your answers for the survey!"/>
+<div className="howtouse">
  <CustomText fontSize={22} text="How to Use!"/>
  <CustomText fontSize={18} text="Whenever you're ready just click start survey.
 There will be 3 questions
 Pick the answer that represents you the closest."/>
+</div>
   <div className="card_answers">
         <div className="options">
             <img src={healthyImg} />
