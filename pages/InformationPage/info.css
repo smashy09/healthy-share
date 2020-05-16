@@ -1,9 +1,9 @@
 
-.All_info_page{
+#All_info_page{
     text-align: center;
 
 }
-.All_info_page p{
+#All_info_page p{
  margin-bottom: 2px;
 }
 
