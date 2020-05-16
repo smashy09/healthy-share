@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './card.css';
 
+
 const healthyImg = require('./healthyicon.png');
 const balancedImg = require('./balancedicon.png');
 const unhealthyImg = require('./unhealthyicon.png');
