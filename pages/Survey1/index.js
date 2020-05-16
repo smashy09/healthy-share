@@ -26,7 +26,13 @@ const Survey1 = () => <div>
 
 <div className="survey_container" onClick={ButtonSlide} >
 <CustomText fontSize={32} text="Survey"/>
-<Card Option1 = {()=>{
+<Card 
+
+unhealthyImg={badsit}
+balancedImg={balancedsit}
+healthyImg={goodsit}
+
+Option1 = {()=>{
    document.querySelector(".options1").style.backgroundColor = "grey"
    data.resultsit = "7+ Hours"
    data.advicesit = "You sit an unhealthy amount, decreasing the amount of time you sit will improve your mental health and reduce the risk of health problems like diabetes"

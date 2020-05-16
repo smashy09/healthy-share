@@ -28,6 +28,11 @@ const Survey3 = ({healthysleep}) => <div>
 <div class="survey_container3" onClick={ButtonSlide}>
 <CustomText fontSize={32} text="Survey"/>
 <Card header="Question #3" question="How much sleep do you get per day?" healthytxt="7+ Hours" balancedtxt="5-6 Hours" unhealthytxt="4- Hours" 
+
+unhealthyImg={badsleep}
+balancedImg={balancedsleep}
+healthyImg={healthysleep}
+
 Option1 = {()=>{
     document.querySelector(".options1").style.backgroundColor = "grey"
     data.resultsleep = "4- Hours"
