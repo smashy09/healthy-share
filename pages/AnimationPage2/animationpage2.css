@@ -20,7 +20,7 @@
 
 .Animation_text2 img{
     position: fixed;
-    top: 60%;
+    top: 65%;
     left: 45%;
     width: 125px;
     animation: textmove 10s;
