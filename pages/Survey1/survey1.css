@@ -1,9 +1,9 @@
 .survey_next {
     position: relative;
-    left: 300px;
-    top: 20px;
-    margin-right: 350px;
-    margin-top: 20px;
+    right: -100%;
+    margin-top: 40px;
+
+    transition: 1s;
 }
 
 .survey_container{
@@ -14,6 +14,3 @@
     left: 8%;
 }
 
-body{
-    background-color: #F3F2EE;
-}

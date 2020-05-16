@@ -1,9 +1,9 @@
 .survey_next {
     position: relative;
-    left: 300px;
-    top: 20px;
-    margin-right: 350px;
-    margin-top: 20px;
+    right: -100%;
+
+
+
 }
 
 .survey_container2{
@@ -11,9 +11,5 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 5%;
-}
 
-body{
-    background-color: #F3F2EE;
 }

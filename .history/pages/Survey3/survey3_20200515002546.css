@@ -1,0 +1,19 @@
+.survey_next {
+    position: relative;
+    right: -100%;
+    top: 40px;
+
+
+}
+
+.survey_container3{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 4%;
+}
+
+body{
+    background-color: #FC6763;
+}

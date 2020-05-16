@@ -1,0 +1,9 @@
+.custom_button {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: pink 10px;
+    font-size: 16px;
+    }

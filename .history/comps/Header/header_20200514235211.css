@@ -1,0 +1,69 @@
+body, html{
+    margin:0;
+}
+
+.HeaderContainer {
+    width: 100%;
+    height: 80px;
+    background-color:#EDE580;
+    display: inline-flex;
+    align-items: center;
+}
+
+.HeaderLogo:hover {
+    opacity: 0.7;
+}
+
+.HeaderLogo:hover {
+    opacity: 0.7;
+}
+
+.HamburgerMenu {
+    position: absolute;
+    right: 30px;
+}
+
+.HamburgerMenu:hover{
+    color: white;
+}
+
+.HeaderLogo {
+    padding-left: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderLogo img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    
+}
+
+.HamburgermenuContainer {
+    margin: 20px;
+    width: 120px;
+    background-color: #D9ECF0;
+    border-radius: 7%;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    display: none;
+    z-index: 1;
+}
+
+.HamburgermenuContainer:hover {
+    opacity: 0.8;
+}
+
+
+.HamburgerItem:hover {
+    color: rgb(214, 129, 157);
+    cursor: pointer;
+}
+
+

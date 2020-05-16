@@ -1,0 +1,34 @@
+.Animation_next{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Animation_container{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.Animation_people{
+    justify-content: center;
+    position: fixed;
+    top: 65%;
+}
+
+body{
+    background-color: #EB5E55;
+}
+
+.Animation_text1 img{
+    position: fixed;
+    top: 58%;
+    left: 25%;
+    width: 100px;
+    animation: textmove 10s;
+    animation-iteration-count: none;
+}
+
+@keyframes textmove {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+} 

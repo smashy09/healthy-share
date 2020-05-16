@@ -23,6 +23,7 @@ const Index = () => <div id="mainapp">
     <Link href="/Survey2"><button>Survey2</button></Link>
     <Link href="/Survey3"><button>Survey3</button></Link>
     <Link href="/ResultPage"><button>Results</button></Link> 
+    
 </div>
 
 export default Index;

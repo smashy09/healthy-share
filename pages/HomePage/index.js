@@ -4,8 +4,6 @@ import './home.css';
 import CustomText from '../../comps/CustomText';
 import CustomButton from '../../comps/CustomButton';
 
-
-
 function NextPage(){
     Router.push("/InformationPage");
 }
@@ -13,13 +11,17 @@ function NextPage(){
 const img = require('./logo.png');
 const HomePage = () => <div>
 <div id="All_home_page">
-    <CustomText fontSize={72} color="#867B8C" text="Healthy-U"/>
+    <div className="Home_title">
+    <CustomText fontSize={72} color="#8DB580" text="Healthy-U"/>
+    </div>
 <img src={img} className="image"/>
 <CustomText fontSize={32}  text="Become a better U today!"/>
 <div className="start_button">
 <CustomButton text="Start App!"  onClick={NextPage}/>
 </div>
-<CustomText fontSize={22} color="#867B8C" text="This app will give you the information you need to become a healthier U!"/>
+<div className="name_para">
+<CustomText fontSize={22}  text="This app will give you the information you need to become a healthier U!"/>
+</div>
 </div>
 </div>
 
