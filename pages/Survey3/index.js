@@ -35,20 +35,26 @@ healthyImg={healthysleep}
 
 Option1 = {()=>{
     document.querySelector(".options1").style.backgroundColor = "grey"
+   document.querySelector(".options2").style.backgroundColor = "#F4F2DD"
+   document.querySelector(".options3").style.backgroundColor = "#F4F2DD"
     data.resultsleep = "4- Hours"
     data.advicesleep = "Get at least 7 hours of sleep. Avoid consuming alcohol or caffeine before bedtime."
     ChangeData(data)
  }}
  
  Option2 = {()=>{
+    document.querySelector(".options1").style.backgroundColor = "#F4F2DD"
     document.querySelector(".options2").style.backgroundColor = "grey"
+    document.querySelector(".options3").style.backgroundColor = "#F4F2DD"
      data.resultsleep = "5-6 Hours"
      data.advicesleep = "Try getting a couple more hours of sleep, you'll feel more energized during the day."
      ChangeData(data)
  }}
  
  Option3 = {()=>{
-     document.querySelector(".options3").style.backgroundColor = "grey"
+    document.querySelector(".options1").style.backgroundColor = "#F4F2DD"
+    document.querySelector(".options2").style.backgroundColor = "#F4F2DD"
+    document.querySelector(".options3").style.backgroundColor = "grey"
      data.resultsleep = "7+ Hours"
      data.advicesleep = "You are getting a good amount of sleep! Keep within 7-10 hours to stay healthy."
      ChangeData(data)
