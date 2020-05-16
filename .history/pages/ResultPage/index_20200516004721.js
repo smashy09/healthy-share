@@ -7,6 +7,16 @@ import Results from '../../comps/Results';
 import Router from 'next/router';
 import {data, ChangeData, Sumup} from '../../data';
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:.history/pages/ResultPage/index_20200516052554.js
+const couchpotatoImg = require('./couchpotato.svg');
+const effortneededImg = require('./effortneeded.svg');
+const healthypersonImg = require('./healthyperson.svg');
+
+=======
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b:.history/pages/ResultPage/index_20200516004721.js
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b
 
 console.log(data)
 
@@ -14,6 +24,12 @@ function GoHome(){
     Router.push("/HomePage");
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:.history/pages/ResultPage/index_20200516052554.js
+const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
+=======
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b
 // var index = 0;
 // const results_arr = [
 //     {
@@ -37,6 +53,10 @@ function GoHome(){
 
 
 const ResultPage = ({backgroundColor, margin}) => {
+<<<<<<< HEAD
+=======
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b:.history/pages/ResultPage/index_20200516004721.js
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b
     Sumup()
     useEffect(()=>{
         setTimeout(()=>{
@@ -49,14 +69,32 @@ const ResultPage = ({backgroundColor, margin}) => {
         <div style={{margin:margin, textAlign:"center"}}>
         <ResultCard />
         </div>
+<<<<<<< HEAD
         <Results type={data.type} result={data.result} />
+=======
+<<<<<<< HEAD:.history/pages/ResultPage/index_20200516052554.js
+        <Results type={data.type} result={data.result} image={data.image} />
+=======
+        <Results type={data.type} result={data.result} />
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b:.history/pages/ResultPage/index_20200516004721.js
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>
     </div>
 }
 ResultPage.defaultProps = {
+<<<<<<< HEAD
     backgroundColor:"#",
+=======
+<<<<<<< HEAD:.history/pages/ResultPage/index_20200516052554.js
+    couchpotatoImg:couchpotatoImg,
+    effortneededImg: effortneededImg,
+    healthypersonImg: healthypersonImg,
+=======
+    backgroundColor:"#",
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b:.history/pages/ResultPage/index_20200516004721.js
+>>>>>>> 69e0a0742010b4e069bfcf62511899cbbb32c51b
     margin:"20px 0"
 }
 

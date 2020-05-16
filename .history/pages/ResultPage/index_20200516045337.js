@@ -12,14 +12,35 @@ const effortneededImg = require('./effortneeded.svg');
 const healthypersonImg = require('./healthyperson.svg');
 
 
-
+console.log(data)
 
 function GoHome(){
     Router.push("/HomePage");
 }
 
+// var index = 0;
+// const results_arr = [
+//     {
+//         healthytxt:"1-2 Hours",
+//         balancedtxt:"3-5 Hours",
+//         unhealthytxt:"7+ Hours",
+//         text:"abcde",
+//         img:""
+//     },
+//     {
+//         healthytxt:"2000 Cal",
+//         balancedtxt:"3000 Cal",
+//         unhealthytxt:"4000+ Cal"
+//     },
+//     {
+//         healthytxt:"7+ Hours",
+//         balancedtxt:"5-6 Hours",
+//         unhealthytxt:"3-4 Hours"
+//     }
+// ]
+
+
 const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
-    console.log(data)
     Sumup()
     useEffect(()=>{
         setTimeout(()=>{

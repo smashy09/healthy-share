@@ -12,14 +12,13 @@ const effortneededImg = require('./effortneeded.svg');
 const healthypersonImg = require('./healthyperson.svg');
 
 
-
+console.log(data)
 
 function GoHome(){
     Router.push("/HomePage");
 }
 
 const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
-    console.log(data)
     Sumup()
     useEffect(()=>{
         setTimeout(()=>{
@@ -32,7 +31,7 @@ const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
         <div style={{margin:margin, textAlign:"center"}}>
         <ResultCard />
         </div>
-        <Results type={data.type} result={data.result} image={data.image} />
+        <Results type={data.type} result={data.result} />
         <div className="gohome_button">
             <CustomButton text="Start again!"  onClick={GoHome}/>
         </div>

@@ -12,14 +12,13 @@ const effortneededImg = require('./effortneeded.svg');
 const healthypersonImg = require('./healthyperson.svg');
 
 
-
+console.log(data)
 
 function GoHome(){
     Router.push("/HomePage");
 }
 
 const ResultPage = ({backgroundColor, margin, effortneededImg}) => {
-    console.log(data)
     Sumup()
     useEffect(()=>{
         setTimeout(()=>{

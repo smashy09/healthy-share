@@ -80,8 +80,8 @@ export function Sumup(){
         data.image = require('./couchpotato.svg');
     }
 
-    //couch potato end
-    //effort needed start
+//couch potato end
+//effort needed start
 
     else if(data.resultsit === "7+ Hours" && data.resulteat === "1 Cup" && data.resultsleep === "7+ Hours"){
         data.type = "Effort Needed";
