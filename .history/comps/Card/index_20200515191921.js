@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 import './card.css';
+import Router from 'next/router';
+import {data, ChangeData} from '../../data';
+import Survey1 from '../../pages/Survey1';
 
 const healthyImg = require('./healthyicon.png');
 const balancedImg = require('./balancedicon.png');
