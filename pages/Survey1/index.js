@@ -34,6 +34,8 @@ healthyImg={goodsit}
 
 Option1 = {()=>{
    document.querySelector(".options1").style.backgroundColor = "grey"
+   document.querySelector(".options2").style.backgroundColor = "#F4F2DD"
+   document.querySelector(".options3").style.backgroundColor = "#F4F2DD"
    data.resultsit = "7+ Hours"
    data.advicesit = "You sit an unhealthy amount, decreasing the amount of time you sit will improve your mental health and reduce the risk of health problems like diabetes"
    ChangeData(data)
@@ -41,7 +43,9 @@ Option1 = {()=>{
 }}
 
 Option2 = {()=>{
+    document.querySelector(".options1").style.backgroundColor = "#F4F2DD"
     document.querySelector(".options2").style.backgroundColor = "grey"
+    document.querySelector(".options3").style.backgroundColor = "#F4F2DD"
     data.resultsit = "3-5 Hours"
     data.advicesit = "You sit a decent amount, but to improve try scraping another hour of sitting away and do some cardio exercises"
     ChangeData(data)
@@ -49,6 +53,8 @@ Option2 = {()=>{
 }}
 
 Option3 = {()=>{
+    document.querySelector(".options1").style.backgroundColor = "#F4F2DD"
+    document.querySelector(".options2").style.backgroundColor = "#F4F2DD"
     document.querySelector(".options3").style.backgroundColor = "grey"
     data.resultsit = "1-2 Hours"
     data.advicesit = "You are sitting a healthy amount! Great work, try improving your blood flow by doing cardio."
